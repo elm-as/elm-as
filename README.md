@@ -7,6 +7,12 @@
 *"Un collectif d'ingénieurs, designers et chercheurs unis par une ambition : allier ingénierie de pointe, mathématiques appliquées et design innovant pour bâtir les systèmes de demain."*
 
 <p align="center">
+  <img src="https://img.shields.io/badge/STATUS-OPERATIONAL-10b981?style=for-the-badge" alt="Status" />
+  <img src="https://img.shields.io/badge/CATEGORY-DATA_SCIENCE-black?style=for-the-badge" alt="Category" />
+  <img src="https://img.shields.io/badge/BUILD-V1.0.4--4F8A-6b7280?style=for-the-badge" alt="Build" />
+</p>
+
+<p align="center">
   <a href="https://elmas.solutions/">
     <img src="https://img.shields.io/badge/Website-elmas.solutions-10b981?style=for-the-badge&logo=vercel" alt="Website" />
   </a>
@@ -70,23 +76,59 @@ Notre collectif couvre de multiples domaines critiques de l'informatique moderne
 
 Nous construisons nos architectures en sélectionnant rigoureusement les technologies les plus pointues :
 
-**💻 Langages & Bas Niveau**
-`Python` `TypeScript` `JavaScript` `C` `Bash` `SQL` `R`
+**💻 Langages & Bas Niveau**  
+<p>
+  <img src="https://img.shields.io/badge/Python-10b981?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-10b981?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-10b981?style=for-the-badge&logo=javascript&logoColor=white" />
+  <img src="https://img.shields.io/badge/C-10b981?style=for-the-badge&logo=c&logoColor=white" />
+  <img src="https://img.shields.io/badge/Bash-10b981?style=for-the-badge&logo=gnu-bash&logoColor=white" />
+  <img src="https://img.shields.io/badge/R-10b981?style=for-the-badge&logo=r&logoColor=white" />
+</p>
 
-**⚙️ Back-End & Architectures Distribuées**
-`Flask` `FastAPI` `Node.js` `Celery` `Redis` `RabbitMQ`
+**⚙️ Back-End & Architectures Distribuées**  
+<p>
+  <img src="https://img.shields.io/badge/Flask-10b981?style=for-the-badge&logo=flask&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-10b981?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-10b981?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Celery-10b981?style=for-the-badge&logo=celery&logoColor=white" />
+  <img src="https://img.shields.io/badge/Redis-10b981?style=for-the-badge&logo=redis&logoColor=white" />
+  <img src="https://img.shields.io/badge/RabbitMQ-10b981?style=for-the-badge&logo=rabbitmq&logoColor=white" />
+</p>
 
-**🎨 Front-End & Interfaces**
-`React.js` `React Flow (Canvas)` `TailwindCSS` `Vite` `Redux Toolkit`
+**🎨 Front-End & Interfaces**  
+<p>
+  <img src="https://img.shields.io/badge/React.js-10b981?style=for-the-badge&logo=react&logoColor=white" />
+  <img src="https://img.shields.io/badge/TailwindCSS-10b981?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vite-10b981?style=for-the-badge&logo=vite&logoColor=white" />
+  <img src="https://img.shields.io/badge/Redux-10b981?style=for-the-badge&logo=redux&logoColor=white" />
+</p>
 
-**🗄️ Données & Cloud**
-`PostgreSQL` `Supabase` `DuckDB` `SQLite` `Prisma` `SQLAlchemy`
+**🗄️ Données & Cloud**  
+<p>
+  <img src="https://img.shields.io/badge/PostgreSQL-10b981?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Supabase-10b981?style=for-the-badge&logo=supabase&logoColor=white" />
+  <img src="https://img.shields.io/badge/DuckDB-10b981?style=for-the-badge&logo=duckdb&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQLite-10b981?style=for-the-badge&logo=sqlite&logoColor=white" />
+  <img src="https://img.shields.io/badge/Prisma-10b981?style=for-the-badge&logo=prisma&logoColor=white" />
+</p>
 
-**🧠 Machine Learning & Data Science**
-`PyTorch` `TensorFlow` `Pandas` `Scikit-Learn` `llama.cpp` `Ollama`
+**🧠 Machine Learning & Data Science**  
+<p>
+  <img src="https://img.shields.io/badge/PyTorch-10b981?style=for-the-badge&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/TensorFlow-10b981?style=for-the-badge&logo=tensorflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pandas-10b981?style=for-the-badge&logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/Scikit_Learn-10b981?style=for-the-badge&logo=scikitlearn&logoColor=white" />
+</p>
 
-**🐧 Systèmes & DevOps**
-`Linux (Kernel Custom)` `QEMU` `Alpine` `BusyBox` `Docker` `Git` `GitHub Actions`
+**🐧 Systèmes & DevOps**  
+<p>
+  <img src="https://img.shields.io/badge/Linux_Kernel-10b981?style=for-the-badge&logo=linux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Alpine-10b981?style=for-the-badge&logo=alpinelinux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-10b981?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-10b981?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-10b981?style=for-the-badge&logo=githubactions&logoColor=white" />
+</p>
 
 ---
 
