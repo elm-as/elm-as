@@ -19,8 +19,9 @@
 
 ```python
 elmas = {
-    "base": "Daloa, Côte d'Ivoire",
-    "parcours": "Modélisation statistique -> IA et data science",
+    "base": "Abidjan, Côte d'Ivoire",
+    "parcours": "Licence en modélisation statistique -> Master Data Science et IA",
+    "universites": ["UFHB", "Université Rennes 2"],
 
     "je_construis": [
         "Daloa Market",
@@ -175,17 +176,15 @@ Le classement tient compte du poids de chaque projet (commits et lignes de code)
   <img width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=elm-as&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Langages les plus utilisés"/>
 </p>
 
-## 🏆 Trophées
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=elm-as&theme=radical&column=7&margin-w=10&margin-h=10" alt="Trophées GitHub"/>
-</p>
-
 ## 📈 Activité
 
 <p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=elm-as&theme=tokyo-night&hide_border=true&area=true&line=58a6ff&point=ffffff&area_color=58a6ff&color=58a6ff&title_color=58a6ff&bg_color=111a2e" alt="Graphique d'activité"/>
+  <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&logo=github&logoColor=white&label=D%C3%89P%C3%94TS&labelColor=181717&color=58a6ff&query=public_repos&url=https://api.github.com/users/elm-as" alt="Dépôts publics"/>
 </p>
+
+<!--
+Serpent des contributions : décommente ce bloc après le premier passage de l'action
+(onglet Actions > "Serpent des contributions" > Run workflow), quand la branche `output` existe.
 
 <p align="center">
   <picture>
@@ -194,11 +193,7 @@ Le classement tient compte du poids de chaque projet (commits et lignes de code)
     <img alt="Serpent des contributions" src="https://raw.githubusercontent.com/elm-as/elm-as/output/github-contribution-grid-snake-dark.svg">
   </picture>
 </p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&logo=github&logoColor=white&label=D%C3%89P%C3%94TS&labelColor=181717&color=58a6ff&query=public_repos&url=https://api.github.com/users/elm-as" alt="Dépôts publics"/>
-  <img src="https://img.shields.io/github/followers/elm-as?style=for-the-badge&logo=github&logoColor=white&label=ABONN%C3%89S&labelColor=181717&color=6ee7a8" alt="Abonnés"/>
-</p>
+-->
 
 ## 🤝 Me contacter
 
