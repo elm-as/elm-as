@@ -1,38 +1,82 @@
 <p align="center">
-  <img src="assets/header.svg" width="100%" alt="elm-as, développeur Full-Stack"/>
+  <img src="assets/header.svg" width="100%" alt="elm-as, Data Science et développeur Full-Stack"/>
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/elmas-dev"><img src="https://img.shields.io/badge/LinkedIn-elmas--dev-0a66c2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:elmastresoroulobo@gmail.com"><img src="https://img.shields.io/badge/Email-elmastresoroulobo@gmail.com-ea4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
-</p>
-
-## À propos
-
-Je suis développeur full-stack, surtout en **TypeScript** et en **Python**. Je construis des plateformes concrètes pour Daloa et la Côte d'Ivoire : une marketplace, un service de livraison et une solution de paiement, qui forment un même écosystème. À côté, je développe des outils de statistiques et de données, un projet d'IA pour le recrutement et un bot de trading.
-
-Je code surtout le matin et le dimanche, et je garde un rythme de refactoring sain : pour 100 lignes ajoutées, j'en supprime 25.
-
-<p align="center">
-  <img src="https://img.shields.io/badge/TypeScript-3178c6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
-  <img src="https://img.shields.io/badge/Python-3776ab?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/JavaScript-f1e05a?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
-  <img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL"/>
-</p>
-
-<!-- Ajoute ici tes frameworks et outils (React, Next.js, Node, FastAPI, etc.) avec le même style de badge -->
-
-## 2026 en chiffres
-
-<p align="center">
-  <img src="assets/stats.svg" width="100%" alt="818 commits, 75 jours actifs, 372 mille lignes de code"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=22&duration=3200&pause=900&color=58A6FF&center=true&vCenter=true&width=700&lines=Data+Science+%26+IA;Full-Stack+TypeScript+%26+Python;Je+construis+pour+Daloa+et+la+C%C3%B4te+d%27Ivoire;Prochaine+%C3%A9tape+%3A+mon+premier+jeu" alt="Data Science et IA, Full-Stack TypeScript et Python, plateformes pour Daloa, premier jeu en préparation"/>
 </p>
 
 <p align="center">
-  <img src="assets/monthly.svg" width="100%" alt="Commits par mois en 2026"/>
+  <a href="https://www.linkedin.com/in/elmas-dev"><img src="https://img.shields.io/badge/LinkedIn-elmas--dev-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="mailto:elmastresoroulobo@gmail.com"><img src="https://img.shields.io/badge/Email-me%20%C3%A9crire-ea4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 </p>
 
-## Mes projets, en tier list
+## 🎯 Qui je suis
+
+<table>
+<tr>
+<td width="60%" valign="top">
+
+```python
+elmas = {
+    "base": "Daloa, Côte d'Ivoire",
+    "parcours": "Modélisation statistique -> IA et data science",
+
+    "je_construis": [
+        "Daloa Market",
+        "Daloa Delivery",
+        "Daloa Pay",
+        "OpenStats",
+    ],
+
+    "j_apprends": [
+        "RAG et évaluation",
+        "Godot",
+        "Jeux vidéo mobiles",
+    ],
+
+    "stack": {
+        "langages": ["TypeScript", "Python", "SQL"],
+        "web": ["React", "Vite", "Tailwind"],
+        "backend": ["Supabase", "PostgreSQL"],
+    },
+
+    "ouvert_a": [
+        "missions freelance",
+        "collaborations",
+        "projets à impact local",
+    ],
+}
+```
+
+</td>
+<td width="40%" valign="top">
+
+**En ce moment**
+
+- 🧪 Test fermé sur Google Play pour DaloaMarket et DaloaDelivery
+- 📚 Programme IA de 12 semaines : un RAG évalué avec des statistiques
+- 🎮 Bientôt : un premier jeu, avec Godot
+
+*Open to remote freelance missions in data, AI and web development.*
+
+</td>
+</tr>
+</table>
+
+## 🌍 L'écosystème Daloa
+
+<p align="center">
+  <img src="assets/daloa.svg" width="100%" alt="Daloa Market, Daloa Delivery, Daloa Pay"/>
+</p>
+
+## 🧭 En cours et à venir
+
+<p align="center">
+  <img src="assets/roadmap.svg" width="100%" alt="En test : Google Play. En cours : programme IA. À venir : premier jeu."/>
+</p>
+
+## 🏅 Mes projets, en tier list
 
 <p align="center">
   <img src="assets/tierlist.svg" width="100%" alt="Tier list de mes projets"/>
@@ -62,19 +106,65 @@ Le classement tient compte du poids de chaque projet (commits et lignes de code)
 
 </details>
 
-## L'écosystème Daloa
+## 🧰 Ma boîte à outils
+
+<table align="center">
+<tr>
+<td width="50%" align="center" valign="top">
+
+<h3>💻 Langages et web</h3>
+
+<img src="https://skillicons.dev/icons?i=ts,js,py,html,css&perline=5" alt="TypeScript, JavaScript, Python, HTML, CSS"/>
+<br/><br/>
+<img src="https://skillicons.dev/icons?i=react,vite,tailwind&perline=3" alt="React, Vite, Tailwind"/>
+
+<br/><br/>
+
+<h3>🗄️ Backend et base de données</h3>
+
+<img src="https://skillicons.dev/icons?i=supabase,postgres&perline=2" alt="Supabase, PostgreSQL"/>
+
+</td>
+<td width="50%" align="center" valign="top">
+
+<h3>📊 Data et IA</h3>
+
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/>
+<br/>
+<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="scikit-learn"/>
+
+<br/><br/>
+
+<h3>🎮 En apprentissage</h3>
+
+<img src="https://skillicons.dev/icons?i=godot&perline=1" alt="Godot"/>
+
+<br/><br/>
+
+<h3>🔧 Outils</h3>
+
+<img src="https://skillicons.dev/icons?i=git,github,vscode&perline=3" alt="Git, GitHub, VS Code"/>
+
+</td>
+</tr>
+</table>
+
+<!-- Ajoute ici ce que tu utilises vraiment (Next.js, Node, FastAPI, Docker...). Garde seulement ce que tu maîtrises. -->
+
+## 📊 2026 en chiffres
 
 <p align="center">
-  <img src="assets/daloa.svg" width="100%" alt="Daloa Market, Daloa Delivery, Daloa Pay"/>
+  <img src="assets/stats.svg" width="100%" alt="818 commits, 75 jours actifs, 372 mille lignes de code"/>
 </p>
 
-## Stack et répartition du code
+<p align="center">
+  <img src="assets/monthly.svg" width="100%" alt="Commits par mois en 2026"/>
+</p>
 
 <p align="center">
   <img src="assets/breakdown.svg" width="100%" alt="Langages et domaines"/>
 </p>
-
-## Activité GitHub
 
 <p align="center">
   <img width="49%" src="https://github-readme-stats.vercel.app/api?username=elm-as&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="Statistiques GitHub"/>
@@ -85,16 +175,35 @@ Le classement tient compte du poids de chaque projet (commits et lignes de code)
   <img width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=elm-as&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Langages les plus utilisés"/>
 </p>
 
-## Me contacter
-
-Ouvert aux collaborations, aux missions freelance et aux projets à impact local.
+## 🏆 Trophées
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/elmas-dev"><img src="https://img.shields.io/badge/LINKEDIN-CONNECT-1C1D21?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0077B5" alt="LinkedIn"/></a>
-  &nbsp;
-  <a href="mailto:elmastresoroulobo@gmail.com"><img src="https://img.shields.io/badge/GMAIL-EMAIL-1C1D21?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335" alt="Email"/></a>
+  <img src="https://github-profile-trophy.vercel.app/?username=elm-as&theme=radical&column=7&margin-w=10&margin-h=10" alt="Trophées GitHub"/>
+</p>
+
+## 📈 Activité
+
+<p align="center">
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=elm-as&theme=tokyo-night&hide_border=true&area=true&line=58a6ff&point=ffffff&area_color=58a6ff&color=58a6ff&title_color=58a6ff&bg_color=111a2e" alt="Graphique d'activité"/>
 </p>
 
 <p align="center">
-  <img height="28" src="https://komarev.com/ghpvc/?username=elm-as&label=PROFILE+VIEWS&style=for-the-badge&labelColor=181717&color=3178c6" alt="Vues du profil"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/elm-as/elm-as/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/elm-as/elm-as/output/github-contribution-grid-snake.svg">
+    <img alt="Serpent des contributions" src="https://raw.githubusercontent.com/elm-as/elm-as/output/github-contribution-grid-snake-dark.svg">
+  </picture>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&logo=github&logoColor=white&label=D%C3%89P%C3%94TS&labelColor=181717&color=58a6ff&query=public_repos&url=https://api.github.com/users/elm-as" alt="Dépôts publics"/>
+  <img src="https://img.shields.io/github/followers/elm-as?style=for-the-badge&logo=github&logoColor=white&label=ABONN%C3%89S&labelColor=181717&color=6ee7a8" alt="Abonnés"/>
+</p>
+
+## 🤝 Me contacter
+
+Ouvert aux collaborations, aux missions freelance et aux projets à impact local : [LinkedIn](https://www.linkedin.com/in/elmas-dev) ou [e-mail](mailto:elmastresoroulobo@gmail.com).
+
+<p align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=140&text=Merci%20pour%20la%20visite&fontSize=24&fontColor=ffffff&color=0:111a2e,100:1e3a8a" alt="Merci pour la visite"/>
 </p>
