@@ -13,14 +13,10 @@
 
 ## 🎯 Qui je suis
 
-<table>
-<tr>
-<td width="60%" valign="top">
-
 ```python
 elmas = {
     "base": "Abidjan, Côte d'Ivoire",
-    "parcours": "Licence en modélisation statistique -> Master Data Science et IA",
+    "parcours": "Modélisation statistique -> Data Science et IA",
     "universites": ["UFHB", "Université Rennes 2"],
 
     "je_construis": [
@@ -50,20 +46,13 @@ elmas = {
 }
 ```
 
-</td>
-<td width="40%" valign="top">
-
-**En ce moment**
+### 🔭 En ce moment
 
 - 🧪 Test fermé sur Google Play pour DaloaMarket et DaloaDelivery
 - 📚 Programme IA de 12 semaines : un RAG évalué avec des statistiques
 - 🎮 Bientôt : un premier jeu, avec Godot
 
 *Open to remote freelance missions in data, AI and web development.*
-
-</td>
-</tr>
-</table>
 
 ## 🌍 L'écosystème Daloa
 
