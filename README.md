@@ -182,18 +182,9 @@ Le classement tient compte du poids de chaque projet (commits et lignes de code)
   <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&logo=github&logoColor=white&label=D%C3%89P%C3%94TS&labelColor=181717&color=58a6ff&query=public_repos&url=https://api.github.com/users/elm-as" alt="Dépôts publics"/>
 </p>
 
-<!--
-Serpent des contributions : décommente ce bloc après le premier passage de l'action
-(onglet Actions > "Serpent des contributions" > Run workflow), quand la branche `output` existe.
-
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/elm-as/elm-as/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/elm-as/elm-as/output/github-contribution-grid-snake.svg">
-    <img alt="Serpent des contributions" src="https://raw.githubusercontent.com/elm-as/elm-as/output/github-contribution-grid-snake-dark.svg">
-  </picture>
+  <img src="assets/contributions.svg" width="100%" alt="Grille des contributions des 12 derniers mois"/>
 </p>
--->
 
 ## 🤝 Me contacter
 
