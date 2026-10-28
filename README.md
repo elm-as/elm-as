@@ -13,10 +13,14 @@
 
 ## 🎯 Qui je suis
 
+<table>
+<tr>
+<td width="60%" valign="top">
+
 ```python
 elmas = {
     "base": "Abidjan, Côte d'Ivoire",
-    "parcours": "Modélisation statistique -> Data Science et IA",
+    "parcours": "Licence en modélisation statistique -> Master Data Science et IA",
     "universites": ["UFHB", "Université Rennes 2"],
 
     "je_construis": [
@@ -46,13 +50,20 @@ elmas = {
 }
 ```
 
-### 🔭 En ce moment
+</td>
+<td width="40%" valign="top">
+
+**En ce moment**
 
 - 🧪 Test fermé sur Google Play pour DaloaMarket et DaloaDelivery
 - 📚 Programme IA de 12 semaines : un RAG évalué avec des statistiques
 - 🎮 Bientôt : un premier jeu, avec Godot
 
 *Open to remote freelance missions in data, AI and web development.*
+
+</td>
+</tr>
+</table>
 
 ## 🌍 L'écosystème Daloa
 
@@ -82,17 +93,17 @@ Le classement tient compte du poids de chaque projet (commits et lignes de code)
 | Projet | Dépôts | Commits | Solde de code |
 |---|---|--:|--:|
 | OpenStats | [OpenStats](https://github.com/elm-as/OpenStats), [Stats](https://github.com/elm-as/Stats) | 104 | +133 114 |
-| Daloa Market | [DaloaMarket-v2](https://github.com/elm-as/DaloaMarket-v2), [DaloaMarket-App](https://github.com/elm-as/DaloaMarket-App) | 196 | +103 798 |
-| Daloa Delivery | [DaloaDelivery](https://github.com/elm-as/DaloaDelivery), [DaloaDelivery-App](https://github.com/elm-as/DaloaDelivery-App) | 121 | +48 339 |
+| Daloa Market | [DaloaMarket-v2](https://github.com/elm-as/DaloaMarket-v2), [DaloaMarket-App](https://github.com/elm-as/DaloaMarket-App) | 217 | +103 798 |
+| Daloa Delivery | [DaloaDelivery](https://github.com/elm-as/DaloaDelivery), [DaloaDelivery-App](https://github.com/elm-as/DaloaDelivery-App) | 129 | +48 339 |
 | ai-recruitment-score | [ai-recruitment-score](https://github.com/elm-as/ai-recruitment-score) | 108 | +8 696 |
 | KlasNet | [KlasNet](https://github.com/elm-as/KlasNet) | 3 | +29 658 |
 | bot-de-trading-deriv | [bot-de-trading-deriv](https://github.com/elm-as/bot-de-trading-deriv) | 15 | +11 972 |
 | plateforme-master-da | [plateforme-master-da](https://github.com/elm-as/plateforme-master-da) | 6 | +9 409 |
 | comparateur-prix-ci | [comparateur-prix-ci](https://github.com/elm-as/comparateur-prix-ci) | 10 | +7 256 |
-| DaloaPay | [DaloaPay](https://github.com/elm-as/DaloaPay) | 82 | +3 729 |
+| DaloaPay | [DaloaPay](https://github.com/elm-as/DaloaPay) | 90 | +3 729 |
 | ElmaSolutions | [ElmaSolutions](https://github.com/elm-as/ElmaSolutions) | 5 | +3 847 |
 | pendu-royal | [pendu-royal](https://github.com/elm-as/pendu-royal) | 8 | +3 674 |
-| SpaceJam | [SpaceJam](https://github.com/elm-as/SpaceJam) | 18 | +2 550 |
+| SpaceJam | [SpaceJam](https://github.com/elm-as/SpaceJam) | 19 | +2 550 |
 
 </details>
 
@@ -145,7 +156,7 @@ Le classement tient compte du poids de chaque projet (commits et lignes de code)
 ## 📊 2026 en chiffres
 
 <p align="center">
-  <img src="assets/stats.svg" width="100%" alt="818 commits, 75 jours actifs, 372 mille lignes de code"/>
+  <img src="assets/stats.svg" width="100%" alt="867 commits, 76 jours actifs, 385 mille lignes de code"/>
 </p>
 
 <p align="center">
@@ -157,7 +168,7 @@ Le classement tient compte du poids de chaque projet (commits et lignes de code)
 </p>
 
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=elm-as&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="Statistiques GitHub"/>
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=elm-as&show_icons=true&theme=tokyonight&hide_border=true" alt="Statistiques GitHub"/>
   <img width="49%" src="https://streak-stats.demolab.com?user=elm-as&theme=tokyonight&hide_border=true" alt="Série de contributions"/>
 </p>
 
