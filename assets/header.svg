@@ -20,8 +20,8 @@
 <!-- Identité & Titre -->
 <text x="56" y="94" font-size="58" font-weight="800" fill="#ffffff" letter-spacing="-1">elm-as</text>
 <rect x="58" y="110" width="60" height="4" rx="2" fill="#58a6ff"/>
-<text x="56" y="148" font-size="20" font-weight="700" fill="#58a6ff">Software Engineering · Systèmes Distribués · Cyber &amp; Réseaux</text>
-<text x="56" y="178" font-size="14" fill="#8b98b0">Go · Rust · Python · TypeScript · C | Architectures Zero-Trust, IA &amp; Systèmes en Production</text>
+<text x="56" y="148" font-size="20" font-weight="700" fill="#58a6ff">Data Science · Développeur Full-Stack · Produits en production</text>
+<text x="56" y="178" font-size="14" fill="#8b98b0">TypeScript · Python · PostgreSQL  |  Prochaine étape : Go, Rust, Cyber &amp; Réseaux</text>
 
 <!-- Carte Terminal Console (Démontre maîtrise Système/Cyber) -->
 <rect x="640" y="38" width="304" height="154" rx="10" fill="#0c1527" stroke="#1f2a44"/>
@@ -31,9 +31,9 @@
 <text x="704" y="60" font-size="11" font-family="'Consolas', 'Courier New', monospace" fill="#8b98b0">elmas@core:~$</text>
 <line x1="640" x2="944" y1="70" y2="70" stroke="#1f2a44"/>
 
-<text x="656" y="94" font-size="11" font-family="'Consolas', 'Courier New', monospace" fill="#6ee7a8">&gt; net: zero-trust mesh [active]</text>
-<text x="656" y="114" font-size="11" font-family="'Consolas', 'Courier New', monospace" fill="#58a6ff">&gt; daloa-market: live [google play]</text>
-<text x="656" y="134" font-size="11" font-family="'Consolas', 'Courier New', monospace" fill="#e6edf3">&gt; rag-eval: statistical scoring</text>
-<text x="656" y="154" font-size="11" font-family="'Consolas', 'Courier New', monospace" fill="#8b98b0">&gt; pcap_probe: listening on eth0</text>
-<text x="656" y="174" font-size="11" font-family="'Consolas', 'Courier New', monospace" fill="#ffd166">&gt; auth: rls enforced (postgresql)</text>
+<text x="656" y="94" font-size="11" font-family="'Consolas', 'Courier New', monospace" fill="#6ee7a8">&gt; daloa-market   live  [google play]</text>
+<text x="656" y="114" font-size="11" font-family="'Consolas', 'Courier New', monospace" fill="#58a6ff">&gt; daloa-delivery building</text>
+<text x="656" y="134" font-size="11" font-family="'Consolas', 'Courier New', monospace" fill="#e6edf3">&gt; postgres       rls enforced</text>
+<text x="656" y="154" font-size="11" font-family="'Consolas', 'Courier New', monospace" fill="#8b98b0">&gt; netsentinel    next  [go]</text>
+<text x="656" y="174" font-size="11" font-family="'Consolas', 'Courier New', monospace" fill="#ffd166">&gt; commits 2026   867</text>
 </svg>

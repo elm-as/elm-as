@@ -1,190 +1,178 @@
 <p align="center">
-  <img src="assets/header.svg" width="100%" alt="elm-as, Software Engineering, Systèmes Distribués, IA et Cyber-Réseaux"/>
+  <img src="assets/header.svg" width="100%" alt="elm-as — Data Science et Ingénierie Logicielle"/>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=20&duration=3200&pause=900&color=58A6FF&center=true&vCenter=true&width=850&lines=Software+Engineer+%C2%B7+Syst%C3%A8mes+Distribu%C3%A9s+%26+Cyber;Data+Engineering+%C2%B7+RAG+%C3%89valu%C3%A9+%26+IA;S%C3%A9curit%C3%A9+R%C3%A9seau+%C2%B7+Packet+Inspection+%26+Zero-Trust;Go+%C2%B7+Rust+%C2%B7+TypeScript+%C2%B7+Python+%C2%B7+C;Daloa+Market+en+production+sur+Google+Play" alt="Software Engineering, Systèmes Distribués, Cyber & Réseaux, Data & IA"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=20&duration=3200&pause=900&color=58A6FF&center=true&vCenter=true&width=850&lines=Daloa+Market+est+en+ligne+sur+Google+Play;Data+Science+%C2%B7+Statistiques+%C2%B7+IA;Full-Stack+TypeScript+%C2%B7+Python+%C2%B7+PostgreSQL;Prochaine+%C3%A9tape+%3A+Go%2C+Rust%2C+Cyber+%26+R%C3%A9seaux" alt="Daloa Market en ligne, Data Science, Full-Stack TypeScript et Python, prochaine étape Go, Rust, Cyber et Réseaux"/>
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/elmas-dev"><img src="https://img.shields.io/badge/LinkedIn-elmas--dev-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:elmastresoroulobo@gmail.com"><img src="https://img.shields.io/badge/Email-me%20%C3%A9crire-ea4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <img src="https://img.shields.io/badge/Base-Abidjan%2C%20CI-111a2e?style=for-the-badge&logo=googlemaps&logoColor=58a6ff" alt="Abidjan, Côte d'Ivoire"/>
+  <a href="mailto:elmastresoroulobo@gmail.com"><img src="https://img.shields.io/badge/Email-elmastresoroulobo%40gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <img src="https://img.shields.io/badge/Localisation-Abidjan%2C%20CI-111a2e?style=for-the-badge&logo=googlemaps&logoColor=58a6ff" alt="Abidjan, Côte d'Ivoire"/>
 </p>
 
-## 🎯 Qui je suis
+---
 
-```python
-elmas = {
-    "base": "Abidjan, Côte d'Ivoire",
-    "parcours": "Licence modélisation statistique -> Master Data Science & IA",
-    "universites": ["UFHB", "Université Rennes 2"],
-    "philosophie": "From Data to Systems — rigueur mathématique, sécurité et performance",
+## 🎯 Profil & Démarche
 
-    "domaines_expertise": [
-        "Systèmes distribués & architectures résilientes",
-        "Cybersécurité défensive, analyse de paquets (PCAP) & Zero-Trust",
-        "Data Engineering, embeddings vectoriels & évaluation de RAG",
-        "Applications mobiles et plateformes de production",
-    ],
+Je m'appelle **Elmas**, basé à Abidjan. Ma démarche technique réunit la **rigueur mathématique** (Licence de Statistiques à l'UFHB, Master Data Science & IA à l'Université Rennes 2) et le **développement de systèmes déployés en conditions réelles**.
 
-    "arsenal_technique": {
-        "langages": ["TypeScript", "Python", "Go", "Rust", "SQL", "C"],
-        "cyber_reseaux": ["WireGuard", "Wireshark", "eBPF/XDP", "Scapy", "mTLS", "Suricata"],
-        "backend_data": ["PostgreSQL (pgvector, RLS)", "Redis", "FastAPI", "Supabase", "Polars"],
-        "infra_cloud": ["Docker", "Linux Kernel Tuning", "Nginx Reverse Proxy", "CI/CD locale"],
-    },
+Concevoir un bon système repose sur trois principes stricts : **partir d'une donnée propre**, **verrouiller la sécurité au niveau de la base** et **écrire un code modulaire et testable qu'un tiers peut reprendre sans friction**.
 
-    "ouvert_a": [
-        "postes Software Engineer / Data & Systems",
-        "missions Cybersécurité, Réseaux & Architecture",
-        "projets à fort impact technique et sociétal",
-    ],
-}
-```
+### ✅ Ce que je livre aujourd'hui (En production & actif)
 
-### ⚡ En ce moment
+- **Applications Mobiles & Web** : Développement full-stack en **TypeScript** (**React**, **Vite**). Mon application [Daloa Market](https://github.com/elm-as/DaloaMarket-App) est déployée et disponible sur **Google Play**.
+- **Architecture de Données & Sécurité** : Modélisation relationnelle sous **PostgreSQL** & **Supabase**, avec isolation des accès garantie par **Row-Level Security (RLS)** appliquée directement en base.
+- **Data Science & Modélisation** : Traitement de données, analyses statistiques exploratoires et pipelines en **Python** (**Pandas**, **NumPy**, **Scikit-Learn**).
+- **Discipline & Constance** : **867 commits** et **76 jours actifs** sur GitHub en 2026, avec plus de 380 000 lignes de code produites.
 
-- 🚀 **Daloa Market** : en production sur Google Play (marketplace mobile & architecture microservices)
-- 🛵 **Daloa Delivery** : finalisation du moteur logistique & géolocalisation temps réel
-- 🛡️ **NetSentinel IDS** : R&D sur la détection d'anomalies de trafic réseau (PCAP, sockets asynchrones, Scapy)
-- 📚 **RAG Statistique** : pipeline vectoriel d'entreprise évalué mathématiquement (faithfulness, context relevance)
-- 🦀 **Systèmes Distribués** : micro-services Zero-Trust & mesh VPN en Go / Rust
+### 🔭 Ce que je construis ensuite (Systèmes, Cyber & Réseaux)
 
-> 💼 *Disponible pour missions d'ingénierie logicielle (Systèmes, Cyber, Data, Web & Mobile) en freelance et CDI.*
+- **Programmation Système & Réseau** : Montée en compétences sur **Go** puis **Rust** pour concevoir des services réseau performants, concurrents et sobres en mémoire.
+- **Sonde Réseau [NetSentinel](https://github.com/elm-as)** : Analyse passive de flux TCP/IP et détection d'anomalies (scans de ports, pics anormaux) couplée à un scoring statistique.
+- **Reverse-Proxy Sécurisé (GateShield)** : Outil d'équilibrage et de limitation de débit (*rate-limiting*) pour appréhender en profondeur les attaques applicatives et la tenue en charge.
+- **RAG Évalué Mathématiquement** : Système documentaire dont la fidélité et la pertinence sont quantifiées par métriques statistiques objectives avec pgvector.
+- **Game Engine Mobile** : Exploration du moteur open-source **Godot** pour un prototype 2D/3D sur Android.
+
+> 💼 Ouvert aux opportunités en **Data Science**, développement **Web / Mobile**, ainsi qu'aux environnements formateurs en **Systèmes, Réseaux et Cybersécurité**.
+
+---
 
 ## 🌍 L'écosystème Daloa
+
+Un ensemble cohérent de services pensés pour le commerce et la logistique locale, conçus de bout en bout :
 
 <p align="center">
   <img src="assets/daloa.svg" width="100%" alt="Daloa Market, Daloa Delivery, Daloa Pay"/>
 </p>
 
-## 🧭 En cours et à venir
+---
+
+## 🧭 Feuille de route des projets
+
+Visualisation claire de ce qui est en production, en cours de finalisation, et en phase d'apprentissage / R&D :
 
 <p align="center">
-  <img src="assets/roadmap.svg" width="100%" alt="Roadmap projets : Daloa Market en prod, Daloa Delivery en cours, NetSentinel IDS et Zero-Trust Mesh en R&D"/>
+  <img src="assets/roadmap.svg" width="100%" alt="Roadmap projets : Daloa Market en prod, Daloa Delivery en cours, NetSentinel et GateShield en R&D"/>
 </p>
 
-## 🛡️ Projets Piliers & Ingénierie
+---
 
-#### 📱 Daloa Market & Delivery · *Mobile & Logistique temps réel (En production)*
-> **Problématique** : E-commerce et livraison du dernier kilomètre en Afrique de l'Ouest, avec synchronisation d'état temps réel (WebSockets), fonctionnement offline-tolerant et paiements sécurisés.
-> 
-> **Stack** : `TypeScript`, `React Native / Flutter`, `Supabase`, `PostgreSQL (Row-Level Security)`.
+## 🛠️ Projets phares
 
-#### 🛡️ NetSentinel IDS · *Network Security & Packet Inspection (Cyber & Réseaux)*
-> **Problématique** : Capture et dissection de trames réseau en continu (PCAP, protocoles IP, TCP, UDP), détection d'anomalies volumétriques (DDoS SYN-flood, scans furtifs) et scoring statistique de menaces.
-> 
-> **Stack** : `Go`, `Python (Scapy)`, `Wireshark`, `Linux Raw Sockets`, `Suricata`.
+### 📱 Daloa Market · *Marketplace mobile en production sur Google Play*
+> Plateforme unifiée connectant acheteurs et vendeurs locaux à Daloa. Catalogue temps réel, gestion des commandes, authentification et contrôle d'accès strict via PostgreSQL RLS.
+>
+> **Stack :** `TypeScript` · `React` · `Supabase` · `PostgreSQL`  
+> **Dépôts :** [DaloaMarket-App](https://github.com/elm-as/DaloaMarket-App) · [DaloaMarket-v2](https://github.com/elm-as/DaloaMarket-v2)
 
-#### 📊 Evaluated RAG & OpenStats · *Data Engineering & IA Vectorielle*
-> **Problématique** : Pipeline RAG d'entreprise avec banc d'essai d'évaluation mathématique (Ragas, TruLens) pour éliminer les hallucinations, combiné à une recherche sémantique haute dimension (`pgvector`).
-> 
-> **Stack** : `Python`, `PostgreSQL (pgvector)`, `Polars`, `PyTorch`, `DuckDB`.
+### 🛵 Daloa Delivery · *Logistique du dernier kilomètre (en cours de finalisation)*
+> Moteur d'attribution de courses aux livreurs et suivi temps réel des colis, interconnecté à Daloa Market.
+>
+> **Stack :** `TypeScript` · `React` · `Supabase` · `PostgreSQL`  
+> **Dépôts :** [DaloaDelivery-App](https://github.com/elm-as/DaloaDelivery-App) · [DaloaDelivery](https://github.com/elm-as/DaloaDelivery)
 
-#### ⚡ GateShield & Zero-Trust Mesh · *Systèmes Distribués & Infra Réseau*
-> **Problématique** : Reverse-proxy haute performance avec limitation de débit distribuée (Token Bucket) et maillage de communication sécurisé via tunnels chiffrés WireGuard et mTLS.
-> 
-> **Stack** : `Go`, `Rust`, `WireGuard API`, `Redis`, `Linux eBPF`.
+### 📊 OpenStats · *Plateforme d'analyse statistique accessible*
+> Le projet le plus volumineux de mon historique de code (+133 000 lignes) : démocratiser l'exploitation et la visualisation de séries statistiques sans obligation d'écrire du code.
+>
+> **Stack :** `TypeScript` · `Python`  
+> **Dépôts :** [Stats](https://github.com/elm-as/Stats) · [openstat](https://github.com/elm-as/openstat)
 
-## 🏅 Mes projets, en tier list
+### 🔬 Prochains chantiers (Systèmes & Cybersécurité)
+
+*Ces projets constituent ma trajectoire d'apprentissage pratique vers les couches basses et l'infrastructure :*
+
+| Projet | Objectif | Notions & Outils clés |
+|---|---|---|
+| 🛡️ **NetSentinel** | Sonde d'analyse passive de paquets et détection de comportements anormaux (scans, pics de syn) | `Go`, `Scapy`, `Wireshark`, protocoles TCP/IP |
+| 📚 **RAG Évalué** | Moteur de recherche et synthèse documentaire avec métriques de confiance (fidélité, ancrage) | `Python`, `pgvector`, métriques statistiques |
+| ⚡ **GateShield** | Reverse-proxy HTTP léger avec rate limiting dynamique et monitoring de trafic | `Go`, `Rust`, `Redis` |
+| 🎮 **Prototype Jeu** | Jeu mobile expérimental pour explorer la boucle de rendu et la physique temps réel | `Godot` |
+
+---
+
+## 🏅 Répartition des projets (Tier List)
+
+Classement basé sur le volume de code, le nombre de commits et l'impact opérationnel :
 
 <p align="center">
   <img src="assets/tierlist.svg" width="100%" alt="Tier list de mes projets"/>
 </p>
 
-Le classement tient compte du poids de chaque projet (commits et volume de code) et de son rôle dans l'écosystème.
-
 <details>
-<summary>Voir les dépôts et les chiffres détaillés</summary>
+<summary><b>🔍 Voir les chiffres détaillés par projet (12 projets principaux)</b></summary>
 
 <br/>
 
-| Projet | Dépôts | Commits | Solde de code |
-|---|---|--:|--:|
-| OpenStats | [OpenStats](https://github.com/elm-as/OpenStats), [Stats](https://github.com/elm-as/Stats) | 104 | +133 114 |
-| Daloa Market | [DaloaMarket-v2](https://github.com/elm-as/DaloaMarket-v2), [DaloaMarket-App](https://github.com/elm-as/DaloaMarket-App) | 217 | +103 798 |
-| Daloa Delivery | [DaloaDelivery](https://github.com/elm-as/DaloaDelivery), [DaloaDelivery-App](https://github.com/elm-as/DaloaDelivery-App) | 129 | +48 339 |
-| ai-recruitment-score | [ai-recruitment-score](https://github.com/elm-as/ai-recruitment-score) | 108 | +8 696 |
-| KlasNet | [KlasNet](https://github.com/elm-as/KlasNet) | 3 | +29 658 |
-| bot-de-trading-deriv | [bot-de-trading-deriv](https://github.com/elm-as/bot-de-trading-deriv) | 15 | +11 972 |
-| plateforme-master-da | [plateforme-master-da](https://github.com/elm-as/plateforme-master-da) | 6 | +9 409 |
-| comparateur-prix-ci | [comparateur-prix-ci](https://github.com/elm-as/comparateur-prix-ci) | 10 | +7 256 |
-| DaloaPay | [DaloaPay](https://github.com/elm-as/DaloaPay) | 90 | +3 729 |
-| ElmaSolutions | [ElmaSolutions](https://github.com/elm-as/ElmaSolutions) | 5 | +3 847 |
-| pendu-royal | [pendu-royal](https://github.com/elm-as/pendu-royal) | 8 | +3 674 |
-| SpaceJam | [SpaceJam](https://github.com/elm-as/SpaceJam) | 19 | +2 550 |
+| Projet | Dépôts associés | Commits | Solde de code | Statut |
+|---|---|--:|--:|---|
+| **OpenStats** | [OpenStats](https://github.com/elm-as/OpenStats), [Stats](https://github.com/elm-as/Stats) | 104 | +133 114 | Actif |
+| **Daloa Market** | [DaloaMarket-v2](https://github.com/elm-as/DaloaMarket-v2), [DaloaMarket-App](https://github.com/elm-as/DaloaMarket-App) | 217 | +103 798 | **En production** (Google Play) |
+| **Daloa Delivery** | [DaloaDelivery](https://github.com/elm-as/DaloaDelivery), [DaloaDelivery-App](https://github.com/elm-as/DaloaDelivery-App) | 129 | +48 339 | Finalisation |
+| **ai-recruitment-score** | [ai-recruitment-score](https://github.com/elm-as/ai-recruitment-score) | 108 | +8 696 | Terminé |
+| **KlasNet** | [KlasNet](https://github.com/elm-as/KlasNet) | 3 | +29 658 | Archive |
+| **bot-de-trading-deriv** | [bot-de-trading-deriv](https://github.com/elm-as/bot-de-trading-deriv) | 15 | +11 972 | Terminé |
+| **plateforme-master-da** | [plateforme-master-da](https://github.com/elm-as/plateforme-master-da) | 6 | +9 409 | Terminé |
+| **comparateur-prix-ci** | [comparateur-prix-ci](https://github.com/elm-as/comparateur-prix-ci) | 10 | +7 256 | Prototype |
+| **DaloaPay** | [DaloaPay](https://github.com/elm-as/DaloaPay) | 90 | +3 729 | En cours |
+| **ElmaSolutions** | [ElmaSolutions](https://github.com/elm-as/ElmaSolutions) | 5 | +3 847 | Prototype |
+| **pendu-royal** | [pendu-royal](https://github.com/elm-as/pendu-royal) | 8 | +3 674 | Terminé |
+| **SpaceJam** | [SpaceJam](https://github.com/elm-as/SpaceJam) | 19 | +2 550 | Terminé |
 
 </details>
 
-## 🧰 Arsenal & Boîte à outils
+---
 
-### ⚡ Langages & Systèmes
+## 🧰 Boîte à outils technique
+
+### Technologies éprouvées en production
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=go,rust,c,py,ts,js,sql,bash,linux&perline=9" alt="Go, Rust, C, Python, TypeScript, JavaScript, SQL, Bash, Linux"/>
+  <img src="https://skillicons.dev/icons?i=ts,js,react,vite,tailwind,supabase,postgres,py,git,github&perline=10" alt="TypeScript, JavaScript, React, Vite, Tailwind, Supabase, PostgreSQL, Python, Git, GitHub"/>
 </p>
 
-### 🛡️ Cyber, Réseaux & Infrastructure
+### Statistiques & Data Science
 <p align="left">
-  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" alt="Wireshark"/>
-  <img src="https://img.shields.io/badge/WireGuard-88171A?style=for-the-badge&logo=wireguard&logoColor=white" alt="WireGuard"/>
-  <img src="https://img.shields.io/badge/Packet%20Inspection-0b1220?style=for-the-badge&logo=target&logoColor=58a6ff" alt="Packet Inspection"/>
-  <img src="https://img.shields.io/badge/eBPF%20%2F%20XDP-111a2e?style=for-the-badge&logo=linux&logoColor=6ee7a8" alt="eBPF / XDP"/>
-  <br/>
-  <img src="https://skillicons.dev/icons?i=docker,nginx,githubactions&perline=3" alt="Docker, Nginx, GitHub Actions"/>
-</p>
-
-### 🗄️ Backend, Architecture & Données
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=postgres,supabase,redis,fastapi,nodejs,react,tailwind&perline=7" alt="PostgreSQL, Supabase, Redis, FastAPI, Node.js, React, Tailwind"/>
-</p>
-
-### 📊 Data Science, IA & Machine Learning
-<p align="left">
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"/>
-  <img src="https://img.shields.io/badge/Polars-CD792C?style=for-the-badge&logo=polars&logoColor=white" alt="Polars"/>
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="scikit-learn"/>
   <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
   <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/>
-  <img src="https://img.shields.io/badge/pgvector-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="pgvector"/>
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="scikit-learn"/>
 </p>
 
-## 📊 2026 en chiffres
-
-<p align="center">
-  <img src="assets/stats.svg" width="100%" alt="867 commits, 76 jours actifs, 385 mille lignes de code"/>
+### Outils Systèmes & Réseaux en apprentissage actif
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=go,rust,linux,docker,godot&perline=5" alt="Go, Rust, Linux, Docker, Godot"/>
+  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" alt="Wireshark"/>
 </p>
 
-<p align="center">
-  <img src="assets/monthly.svg" width="100%" alt="Commits par mois en 2026"/>
-</p>
+---
+
+## 📊 Métriques & Activité 2026
 
 <p align="center">
-  <img src="assets/breakdown.svg" width="100%" alt="Langages et domaines"/>
-</p>
-
-<p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=elm-as&show_icons=true&theme=tokyonight&hide_border=true" alt="Statistiques GitHub"/>
-  <img width="49%" src="https://streak-stats.demolab.com?user=elm-as&theme=tokyonight&hide_border=true" alt="Série de contributions"/>
+  <img src="assets/stats.svg" width="100%" alt="867 commits, 76 jours actifs, 385 mille lignes de code en 2026"/>
 </p>
 
 <p align="center">
-  <img width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=elm-as&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Langages les plus utilisés"/>
-</p>
-
-## 📈 Activité
-
-<p align="center">
-  <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&logo=github&logoColor=white&label=D%C3%89P%C3%94TS&labelColor=181717&color=58a6ff&query=public_repos&url=https://api.github.com/users/elm-as" alt="Dépôts publics"/>
+  <img src="assets/monthly.svg" width="100%" alt="Volume de commits par mois en 2026"/>
 </p>
 
 <p align="center">
-  <img src="assets/contributions.svg" width="100%" alt="Grille des contributions des 12 derniers mois"/>
+  <img src="assets/breakdown.svg" width="100%" alt="Répartition par langage et domaine applicatif"/>
 </p>
 
-## 🤝 Me contacter
+<p align="center">
+  <img src="assets/contributions.svg" width="100%" alt="Grille complète des contributions des 12 derniers mois"/>
+</p>
 
-Ouvert aux collaborations d'envergure, aux opportunités d'ingénierie logicielle (Systèmes, Cyber, Data) et aux projets à impact : [LinkedIn](https://www.linkedin.com/in/elmas-dev) ou [e-mail](mailto:elmastresoroulobo@gmail.com).
+---
+
+## 🤝 Contact & Échanges
+
+Je suis joignable pour discuter de projets concrets, de collaboration technique ou d'opportunités d'ingénierie :
+
+- **LinkedIn** : [linkedin.com/in/elmas-dev](https://www.linkedin.com/in/elmas-dev)
+- **E-mail** : [elmastresoroulobo@gmail.com](mailto:elmastresoroulobo@gmail.com)
+- **Localisation** : Abidjan, Côte d'Ivoire (disponible en remote)
 
 <p align="center">
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=140&text=Merci%20pour%20la%20visite&fontSize=24&fontColor=ffffff&color=0:111a2e,100:1e3a8a" alt="Merci pour la visite"/>
