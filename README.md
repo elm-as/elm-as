@@ -55,7 +55,8 @@ elmas = {
 
 **En ce moment**
 
-- 🧪 Test fermé sur Google Play pour DaloaMarket et DaloaDelivery
+- 🚀 **Daloa Market** : en production sur Google Play
+- 🛵 **Daloa Delivery** : en cours de finalisation et déploiement
 - 📚 Programme IA de 12 semaines : un RAG évalué avec des statistiques
 - 🎮 Bientôt : un premier jeu, avec Godot
 
@@ -74,7 +75,7 @@ elmas = {
 ## 🧭 En cours et à venir
 
 <p align="center">
-  <img src="assets/roadmap.svg" width="100%" alt="En test : Google Play. En cours : programme IA. À venir : premier jeu."/>
+  <img src="assets/roadmap.svg" width="100%" alt="En prod : Daloa Market. En cours : Daloa Delivery. À venir : premier jeu."/>
 </p>
 
 ## 🏅 Mes projets, en tier list
