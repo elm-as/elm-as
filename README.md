@@ -14,10 +14,6 @@
 
 ## 🎯 Qui je suis
 
-<table>
-<tr>
-<td width="60%" valign="top">
-
 ```python
 elmas = {
     "base": "Abidjan, Côte d'Ivoire",
@@ -39,13 +35,6 @@ elmas = {
         "infra_cloud": ["Docker", "Linux Kernel Tuning", "Nginx Reverse Proxy", "CI/CD locale"],
     },
 
-    "en_production_et_rd": [
-        "Daloa Market : marketplace mobile live sur Google Play",
-        "Daloa Delivery : moteur logistique & dispatch temps réel",
-        "NetSentinel IDS : sonde d'inspection réseau & scoring d'anomalies",
-        "OpenStats : suite d'analytique et pipeline RAG évalué",
-    ],
-
     "ouvert_a": [
         "postes Software Engineer / Data & Systems",
         "missions Cybersécurité, Réseaux & Architecture",
@@ -54,22 +43,15 @@ elmas = {
 }
 ```
 
-</td>
-<td width="40%" valign="top">
+### ⚡ En ce moment
 
-**En ce moment**
+- 🚀 **Daloa Market** : en production sur Google Play (marketplace mobile & architecture microservices)
+- 🛵 **Daloa Delivery** : finalisation du moteur logistique & géolocalisation temps réel
+- 🛡️ **NetSentinel IDS** : R&D sur la détection d'anomalies de trafic réseau (PCAP, sockets asynchrones, Scapy)
+- 📚 **RAG Statistique** : pipeline vectoriel d'entreprise évalué mathématiquement (faithfulness, context relevance)
+- 🦀 **Systèmes Distribués** : micro-services Zero-Trust & mesh VPN en Go / Rust
 
-- 🚀 **Daloa Market** : en production sur Google Play
-- 🛵 **Daloa Delivery** : finalisation du moteur logistique temps réel
-- 🛡️ **NetSentinel IDS** : R&D sur la détection d'anomalies réseau (PCAP, sockets)
-- 📚 **RAG Statistique** : pipeline vectoriel évalué avec métriques de confiance
-- 🦀 **Systèmes** : micro-services Zero-Trust & mesh VPN en Go / Rust
-
-*Open to remote & on-site engineering missions in Systems, Cyber, Data, Web & Mobile.*
-
-</td>
-</tr>
-</table>
+> 💼 *Disponible pour missions d'ingénierie logicielle (Systèmes, Cyber, Data, Web & Mobile) en freelance et CDI.*
 
 ## 🌍 L'écosystème Daloa
 
@@ -85,48 +67,25 @@ elmas = {
 
 ## 🛡️ Projets Piliers & Ingénierie
 
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
+#### 📱 Daloa Market & Delivery · *Mobile & Logistique temps réel (En production)*
+> **Problématique** : E-commerce et livraison du dernier kilomètre en Afrique de l'Ouest, avec synchronisation d'état temps réel (WebSockets), fonctionnement offline-tolerant et paiements sécurisés.
+> 
+> **Stack** : `TypeScript`, `React Native / Flutter`, `Supabase`, `PostgreSQL (Row-Level Security)`.
 
-### 📱 Daloa Market & Delivery
-> **Production Google Play · Mobile & Logistique temps réel**
-- Marketplace locale et dispatching de livraison dernier kilomètre.
-- Synchronisation d'état temps réel (WebSockets), offline-first et tolérance réseau.
-- **Stack** : `TypeScript`, `React Native / Flutter`, `Supabase`, `PostgreSQL (RLS)`.
+#### 🛡️ NetSentinel IDS · *Network Security & Packet Inspection (Cyber & Réseaux)*
+> **Problématique** : Capture et dissection de trames réseau en continu (PCAP, protocoles IP, TCP, UDP), détection d'anomalies volumétriques (DDoS SYN-flood, scans furtifs) et scoring statistique de menaces.
+> 
+> **Stack** : `Go`, `Python (Scapy)`, `Wireshark`, `Linux Raw Sockets`, `Suricata`.
 
-</td>
-<td width="50%" valign="top">
+#### 📊 Evaluated RAG & OpenStats · *Data Engineering & IA Vectorielle*
+> **Problématique** : Pipeline RAG d'entreprise avec banc d'essai d'évaluation mathématique (Ragas, TruLens) pour éliminer les hallucinations, combiné à une recherche sémantique haute dimension (`pgvector`).
+> 
+> **Stack** : `Python`, `PostgreSQL (pgvector)`, `Polars`, `PyTorch`, `DuckDB`.
 
-### 🛡️ NetSentinel IDS (Cyber & Réseaux)
-> **Network Security · Packet Inspection & Détection d'anomalies**
-- Capture et dissection de trames réseau (PCAP, protocoles IP, TCP, UDP).
-- Détection d'anomalies de trafic (scans furtifs SYN, floods volumétriques, exfiltration).
-- **Stack** : `Go`, `Python (Scapy)`, `Wireshark`, `Linux Raw Sockets`, `Suricata`.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 📊 Evaluated RAG & OpenStats
-> **Data Engineering · IA vectorielle & Évaluation statistique**
-- Pipeline RAG d'entreprise avec banc d'essai d'évaluation mathématique (Ragas).
-- Recherche sémantique vectorielle haute dimension couplée à un calcul distribué.
-- **Stack** : `Python`, `PostgreSQL (pgvector)`, `Polars`, `PyTorch`, `DuckDB`.
-
-</td>
-<td width="50%" valign="top">
-
-### ⚡ GateShield & Zero-Trust Mesh
-> **Systèmes Distribués · Infra Réseau & Reverse Proxy**
-- Reverse-proxy avec limitation de débit distribuée (Token Bucket).
-- Maillage de communication sécurisé via tunnels chiffrés et authentification mTLS.
-- **Stack** : `Go`, `Rust`, `WireGuard API`, `Redis`, `Linux eBPF`.
-
-</td>
-</tr>
-</table>
+#### ⚡ GateShield & Zero-Trust Mesh · *Systèmes Distribués & Infra Réseau*
+> **Problématique** : Reverse-proxy haute performance avec limitation de débit distribuée (Token Bucket) et maillage de communication sécurisé via tunnels chiffrés WireGuard et mTLS.
+> 
+> **Stack** : `Go`, `Rust`, `WireGuard API`, `Redis`, `Linux eBPF`.
 
 ## 🏅 Mes projets, en tier list
 
@@ -160,50 +119,35 @@ Le classement tient compte du poids de chaque projet (commits et volume de code)
 
 ## 🧰 Arsenal & Boîte à outils
 
-<table align="center" width="100%">
-<tr>
-<td width="50%" align="center" valign="top">
-
 ### ⚡ Langages & Systèmes
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=go,rust,c,py,ts,js,sql,bash,linux&perline=9" alt="Go, Rust, C, Python, TypeScript, JavaScript, SQL, Bash, Linux"/>
+</p>
 
-<img src="https://skillicons.dev/icons?i=go,rust,c,py,ts,js&perline=6" alt="Go, Rust, C, Python, TypeScript, JavaScript"/>
-<br/><br/>
-<img src="https://skillicons.dev/icons?i=bash,powershell,linux&perline=3" alt="Bash, PowerShell, Linux"/>
-
-<br/><br/>
-
-### 🛡️ Cyber, Réseaux & Infra
-
-<img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" alt="Wireshark"/>
-<img src="https://img.shields.io/badge/WireGuard-88171A?style=for-the-badge&logo=wireguard&logoColor=white" alt="WireGuard"/>
-<img src="https://img.shields.io/badge/Packet%20Inspection-0b1220?style=for-the-badge&logo=target&logoColor=58a6ff" alt="Packet Inspection"/>
-<br/>
-<img src="https://skillicons.dev/icons?i=docker,nginx,githubactions&perline=3" alt="Docker, Nginx, GitHub Actions"/>
-
-</td>
-<td width="50%" align="center" valign="top">
+### 🛡️ Cyber, Réseaux & Infrastructure
+<p align="left">
+  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" alt="Wireshark"/>
+  <img src="https://img.shields.io/badge/WireGuard-88171A?style=for-the-badge&logo=wireguard&logoColor=white" alt="WireGuard"/>
+  <img src="https://img.shields.io/badge/Packet%20Inspection-0b1220?style=for-the-badge&logo=target&logoColor=58a6ff" alt="Packet Inspection"/>
+  <img src="https://img.shields.io/badge/eBPF%20%2F%20XDP-111a2e?style=for-the-badge&logo=linux&logoColor=6ee7a8" alt="eBPF / XDP"/>
+  <br/>
+  <img src="https://skillicons.dev/icons?i=docker,nginx,githubactions&perline=3" alt="Docker, Nginx, GitHub Actions"/>
+</p>
 
 ### 🗄️ Backend, Architecture & Données
-
-<img src="https://skillicons.dev/icons?i=postgres,supabase,redis&perline=3" alt="PostgreSQL, Supabase, Redis"/>
-<br/><br/>
-<img src="https://skillicons.dev/icons?i=fastapi,nodejs,react,tailwind&perline=4" alt="FastAPI, Node.js, React, Tailwind"/>
-
-<br/><br/>
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=postgres,supabase,redis,fastapi,nodejs,react,tailwind&perline=7" alt="PostgreSQL, Supabase, Redis, FastAPI, Node.js, React, Tailwind"/>
+</p>
 
 ### 📊 Data Science, IA & Machine Learning
-
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"/>
-<img src="https://img.shields.io/badge/Polars-CD792C?style=for-the-badge&logo=polars&logoColor=white" alt="Polars"/>
-<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="scikit-learn"/>
-<br/>
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/>
-<img src="https://img.shields.io/badge/pgvector-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="pgvector"/>
-
-</td>
-</tr>
-</table>
+<p align="left">
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"/>
+  <img src="https://img.shields.io/badge/Polars-CD792C?style=for-the-badge&logo=polars&logoColor=white" alt="Polars"/>
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="scikit-learn"/>
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/>
+  <img src="https://img.shields.io/badge/pgvector-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="pgvector"/>
+</p>
 
 ## 📊 2026 en chiffres
 
