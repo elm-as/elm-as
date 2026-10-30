@@ -47,9 +47,9 @@ Au-delà des applications web, mobiles et analytiques déjà livrées — notamm
 
 | Chantier | Objectif d'ingénierie | Socle technique |
 |---|---|---|
-| 🛡️ **NetSentinel** | Sonde d'analyse passive de flux TCP/IP et détection statistique d'anomalies (scans de ports, pics SYN) | `Go` · `Scapy` · `Wireshark` · `TCP/IP` |
-| ⚡ **GateShield** | Reverse-proxy HTTP léger avec *rate-limiting* dynamique, tenue en charge et télémétrie temps réel | `Go` · `Rust` · `Redis` |
-| 📚 **RAG Évalué** | Recherche et synthèse documentaire quantifiées par métriques statistiques objectives (fidélité, ancrage) | `Python` · `pgvector` · `Évaluation stat.` |
+| 🛡️ **[NetSentinel](https://github.com/elm-as/NetSentinel)** | Sonde d'analyse passive de flux TCP/IP et détection statistique d'anomalies (Welford & Z-Score anti-empoisonnement) | `Go` · `PCAP` · `TCP/IP` · `Statistiques` |
+| ⚡ **[GateShield](https://github.com/elm-as/GateShield)** | Reverse-proxy HTTP défensif avec *rate-limiting* Token Bucket, garde-fous anti-Slowloris et télémétrie atomique | `Go` · `HTTP Proxy` · `Token Bucket` |
+| 📚 **[StatRAG](https://github.com/elm-as/StatRAG)** | Recherche documentaire (`PostgreSQL + pgvector` sous RLS) quantifiée par fidélité et intervalles de confiance bootstrap | `Python` · `pgvector` · `Bootstrap 95 %` |
 | 🎮 **Prototype Mobile** | Expérimentation autour de la boucle de rendu et de la physique temps réel sur Android | `Godot Engine` |
 
 ---
@@ -81,6 +81,7 @@ Vue consolidée de mes projets par maturité opérationnelle, volume de code et 
 | **ElmaSolutions** | `Dépôt privé` | 5 | +3 847 | Prototype |
 | **pendu-royal** | [pendu-royal](https://github.com/elm-as/pendu-royal) | 8 | +3 674 | Terminé *(Android/Kivy)* |
 | **SpaceJam** | [SpaceJam](https://github.com/elm-as/SpaceJam) | 19 | +2 550 | Terminé |
+| **Systèmes & RAG (R&D)** | [NetSentinel](https://github.com/elm-as/NetSentinel) · [GateShield](https://github.com/elm-as/GateShield) · [StatRAG](https://github.com/elm-as/StatRAG) | 3+ | +2 300 | **Socle v0.1 actif** |
 | **Prototypes Sécu & Data** | [kripton](https://github.com/elm-as/kripton) · [vanguard-sec](https://github.com/elm-as/vanguard-sec) · [datasci-os](https://github.com/elm-as/datasci-os) · [med-connect](https://github.com/elm-as/med-connect) | — | — | Laboratoire public |
 
 </details>

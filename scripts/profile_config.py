@@ -137,7 +137,7 @@ STATS_CARDS_2026: tuple[StatCardSpec, ...] = (
     StatCardSpec(
         value="9 jours",
         label="Plus longue série",
-        detail="35 dépôts publics · rythme matinal",
+        detail="38 dépôts publics · rythme matinal",
         accent=PALETTE.signal_systems,
     ),
 )
@@ -209,17 +209,17 @@ ROADMAP_STAGES: tuple[RoadmapStage, ...] = (
     ),
     RoadmapStage(
         step_code="03",
-        status_label="Chantier Data / IA",
-        title="RAG Évalué",
-        stack_line="Python · pgvector · Stats",
-        scope_line="Fidélité mesurée objectivement",
+        status_label="Socle v0.1 actif",
+        title="StatRAG (RAG Évalué)",
+        stack_line="Python · pgvector · RLS",
+        scope_line="Fidélité & IC 95 % bootstrap",
         accent=PALETTE.signal_data,
     ),
     RoadmapStage(
         step_code="04",
-        status_label="Cap Systèmes",
+        status_label="Socle v0.1 actif",
         title="NetSentinel & GateShield",
-        stack_line="Go · Rust · TCP/IP · Redis",
+        stack_line="Go · PCAP · Token Bucket",
         scope_line="Sonde réseau & reverse-proxy",
         accent=PALETTE.signal_systems,
     ),
@@ -313,17 +313,17 @@ PORTFOLIO_BANDS: tuple[PortfolioBand, ...] = (
         ),
     ),
     PortfolioBand(
-        category="Labo & Prototypes",
-        subtitle="Sécurité, mobile & R&D",
+        category="Systèmes & Labo",
+        subtitle="R&D Go, RAG & sécurité",
         accent=PALETTE.signal_systems,
         projects=(
-            ProjectTile("KlasNet", "3 commits · +29,7 k", 174),
-            ProjectTile("kripton", "Shamir Secret Sharing", 184),
-            ProjectTile("pendu-royal", "8 commits · Android/Kivy", 190),
-            ProjectTile("SpaceJam & ElmaSolutions", "24 commits · +6,4 k", 214),
+            ProjectTile("NetSentinel", "Go · Sonde PCAP & Welford", 190),
+            ProjectTile("GateShield", "Go · Proxy & Token Bucket", 190),
+            ProjectTile("StatRAG", "Python · pgvector & RLS", 184),
+            ProjectTile("KlasNet & kripton", "+29,7 k · Shamir S.S.S", 196),
         ),
         footnote=(
-            "+ 20 dépôts d'exploration publics : vanguard-sec (biométrie), "
+            "+ 22 dépôts publics : pendu-royal (Android), SpaceJam, vanguard-sec, "
             "datasci-os, med-connect (offline-first), neural-recruit…"
         ),
     ),
