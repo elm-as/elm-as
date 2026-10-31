@@ -1,27 +1,21 @@
 <p align="center">
-  <img src="assets/header.svg" width="100%" alt="Elmas (elm-as) — Data Science, Statistiques et Ingénierie Logicielle"/>
+  <img src="assets/header.svg" width="100%" alt="Elmas (elm-as) — Data Science, Statistiques & Ingénierie Logicielle"/>
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/elmas-dev"><img src="https://img.shields.io/badge/LinkedIn-elmas--dev-1d4ed8?style=for-the-badge&labelColor=0b1220&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>&nbsp;
   <a href="mailto:elmastresoroulobo@gmail.com"><img src="https://img.shields.io/badge/Contact-elmastresoroulobo%40gmail.com-1e293b?style=for-the-badge&labelColor=0b1220&logo=gmail&logoColor=58a6ff" alt="Email"/></a>&nbsp;
   <a href="https://play.google.com/store/apps/details?id=com.daloamarket.app"><img src="https://img.shields.io/badge/Daloa_Market-Google_Play-065f46?style=for-the-badge&labelColor=0b1220&logo=googleplay&logoColor=34d399" alt="Daloa Market sur Google Play"/></a>&nbsp;
-  <img src="https://img.shields.io/badge/Base-Abidjan%2C_CI_·_Remote-16223b?style=for-the-badge&labelColor=0b1220&logo=googlemaps&logoColor=f59e0b" alt="Abidjan, Côte d'Ivoire"/>
+  <img src="https://img.shields.io/badge/Base-Abidjan%2C_CI-16223b?style=for-the-badge&labelColor=0b1220&logo=googlemaps&logoColor=f59e0b" alt="Abidjan, Côte d'Ivoire"/>
 </p>
 
-Basé à Abidjan, je conçois des systèmes logiciels à l'intersection de la **modélisation statistique** (*Licence Statistiques UFHB*, *Master Data Science & IA Université Rennes 2*) et de l'**ingénierie en production**. Ma démarche tient en trois règles : **partir d'une donnée propre**, **isoler la sécurité au niveau de la base (`PostgreSQL RLS`)** et **livrer un code modulaire repris sans friction**.
+Basé à Abidjan, je conçois des systèmes logiciels à l'intersection de la **modélisation statistique** (*Licence Statistiques UFHB*, *Master Data Science & IA Université Rennes 2*) et de l'**ingénierie logicielle en production**.
+
+Ma démarche : **partir d'une donnée propre**, **isoler la sécurité au niveau de la base (`PostgreSQL RLS`)** et **livrer un code modulaire repris sans friction**.
 
 ---
 
-## 🌍 Écosystème en production — La suite Daloa
-
-<p align="center">
-  <img src="assets/daloa.svg" width="100%" alt="Architecture de la suite Daloa : Market, Delivery, Pay et socle PostgreSQL RLS"/>
-</p>
-
----
-
-## 🛠️ Projets principaux
+### 🛠️ Projets en production & réalisations
 
 | Projet | Domaine & Architecture | Stack |
 |---|---|---|
@@ -44,15 +38,11 @@ Basé à Abidjan, je conçois des systèmes logiciels à l'intersection de la **
 
 ---
 
-## 🧰 Compétences & Activité
+### 🧰 Compétences & Technologies
 
-<p align="center">
-  <img src="assets/stack.svg" width="100%" alt="Stack technique : Production Full-Stack, Statistiques et Data, Systèmes et Réseaux"/>
-</p>
-
-<p align="center">
-  <img src="assets/contributions.svg" width="100%" alt="Synthèse d'activité et calendrier des contributions des 12 derniers mois"/>
-</p>
+- **Production & Full-Stack** : `TypeScript`, `React`, `Node.js`, `Express`, `PostgreSQL (RLS)`, `Supabase`, `Tailwind CSS`, `Git`
+- **Statistiques, Data & IA** : `Python`, `Pandas`, `NumPy`, `Scikit-Learn`, `pgvector`, `RAG & Bootstrap`, Modélisation statistique
+- **Systèmes, Réseaux & Labo** : `Go`, `Rust`, `Linux`, `TCP/IP`, `PCAP & Wireshark`, `Docker`, `Redis`
 
 ---
 
