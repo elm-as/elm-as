@@ -1,6 +1,6 @@
-"""Génère assets/contributions.svg à partir du calendrier public de contributions GitHub.
+"""Génère assets/contributions.svg combinant les 4 KPI clés et le calendrier 12 mois.
 
-Sans token, sans GitHub Actions :
+Unifie en un seul panneau respirant les métriques clés et la grille GitHub :
     python scripts/update_grid.py
 """
 
@@ -49,7 +49,7 @@ class ContributionsDataset:
 
 
 def fetch_contributions_html(profile_url: str) -> str:
-    """Récupère le fragment HTML public des contributions GitHub avec gestion d'erreur explicite."""
+    """Récupère le fragment HTML public des contributions GitHub."""
     request = urllib.request.Request(profile_url, headers={"User-Agent": "Mozilla/5.0"})
     try:
         with urllib.request.urlopen(request, timeout=30) as response:
@@ -106,29 +106,49 @@ def extract_month_ticks(cells: tuple[ContributionCell, ...], grid_x: int) -> tup
     return tuple(filtered)
 
 
+def _render_top_kpi_strip(total_contrib: int, active_days: int, palette: ElmasPalette) -> str:
+    """Rend le bandeau supérieur synthétisant les 4 métriques majeures en une seule ligne."""
+    formatted_total = f"{total_contrib:,}".replace(",", " ")
+    kpis = (
+        (formatted_total, "Contributions (12 mois)", palette.signal_active),
+        ("+385 k", "Lignes de code (solde net)", palette.signal_prod),
+        (f"{active_days} jours", "Jours d'activité sur l'année", palette.signal_data),
+        ("72 % TS · 17 % Py", "Langages principaux (+ Go)", palette.signal_systems),
+    )
+    box_w, gap, start_x = 222, 16, 32
+    parts: list[str] = []
+    for idx, (val, label, accent) in enumerate(kpis):
+        pos_x = start_x + idx * (box_w + gap)
+        parts.append(
+            f'<rect x="{pos_x}" y="22" width="{box_w}" height="62" rx="10" fill="{palette.bg_deep}" stroke="{palette.border}"/>'
+            f'<rect x="{pos_x}" y="35" width="3" height="36" rx="1.5" fill="{accent}"/>'
+            f'<text class="mono" x="{pos_x + 15}" y="49" font-size="18" font-weight="800" fill="{palette.text_primary}">{escape(val)}</text>'
+            f'<text x="{pos_x + 15}" y="69" font-size="11.5" fill="{palette.text_muted}">{escape(label)}</text>'
+        )
+    return "".join(parts)
+
+
 def render_contributions_svg(
     dataset: ContributionsDataset,
     palette: ElmasPalette = PALETTE,
 ) -> str:
-    """Génère le calendrier annuel unifié en 1000 px avec mois, jours et accessibilité."""
+    """Génère le panneau unifié (KPIs + calendrier 12 mois) sur un canevas de 1000x290."""
     if not dataset.cells:
         return ""
 
-    width, height = 1000, 244
+    width, height = 1000, 290
     total_weeks = max(cell.col for cell in dataset.cells) + 1
     grid_w = total_weeks * CELL_PITCH - CELL_GAP
     block_start_x = (width - (38 + grid_w)) // 2
     grid_x = block_start_x + 38
-    grid_y = 78
+    grid_y = 126
 
     active_days = sum(1 for cell in dataset.cells if cell.level > 0)
-    formatted_total = f"{dataset.total_contributions:,}".replace(",", " ")
-    summary_text = f"{formatted_total} contributions · {active_days} jours actifs"
 
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" '
         f'viewBox="0 0 {width} {height}" font-family="{FONT_SANS}" role="img" '
-        'aria-label="Calendrier des contributions des 12 derniers mois">',
+        'aria-label="Synthèse d\'activité et calendrier des contributions sur 12 mois">',
         "<style>"
         f".mono{{font-family:{FONT_MONO};font-variant-numeric:tabular-nums}}"
         "@media (prefers-reduced-motion: no-preference){"
@@ -137,12 +157,11 @@ def render_contributions_svg(
         "}"
         "</style>",
         f'<rect x="0.5" y="0.5" width="{width - 1}" height="{height - 1}" rx="15.5" fill="{palette.bg_panel}" stroke="{palette.border}"/>',
-        f'<text x="{block_start_x}" y="38" font-size="17" font-weight="700" fill="{palette.text_primary}">Activité des 12 derniers mois</text>',
-        f'<text class="mono" x="{grid_x + grid_w}" y="38" font-size="13" font-weight="600" text-anchor="end" fill="{palette.signal_active}">{escape(summary_text)}</text>',
+        _render_top_kpi_strip(dataset.total_contributions, active_days, palette),
     ]
 
     for tick_x, month_label in extract_month_ticks(dataset.cells, grid_x):
-        parts.append(f'<text x="{tick_x}" y="66" font-size="11.5" fill="{palette.text_muted}">{escape(month_label)}</text>')
+        parts.append(f'<text x="{tick_x}" y="114" font-size="11.5" fill="{palette.text_muted}">{escape(month_label)}</text>')
 
     for row_idx, day_label in ((1, "Lun"), (3, "Mer"), (5, "Ven")):
         day_y = grid_y + row_idx * CELL_PITCH + 11
@@ -151,7 +170,7 @@ def render_contributions_svg(
     for cell in dataset.cells:
         pos_x = grid_x + cell.col * CELL_PITCH
         pos_y = grid_y + cell.row * CELL_PITCH
-        delay = cell.col * 0.018
+        delay = cell.col * 0.016
         parts.append(
             f'<rect class="d" style="animation-delay:{delay:.3f}s" '
             f'x="{pos_x}" y="{pos_y}" width="{CELL_SIZE}" height="{CELL_SIZE}" '
@@ -163,7 +182,7 @@ def render_contributions_svg(
     last_date = max(cell.date for cell in dataset.cells)
     parts.append(
         f'<text class="mono" x="{block_start_x}" y="{legend_y + 11}" font-size="11.5" fill="{palette.text_dim}">'
-        f"Période : {escape(first_date)} → {escape(last_date)}</text>"
+        f"{escape(first_date)} → {escape(last_date)}</text>"
     )
 
     legend_right = grid_x + grid_w

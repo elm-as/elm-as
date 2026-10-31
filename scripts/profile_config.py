@@ -228,35 +228,32 @@ ROADMAP_STAGES: tuple[RoadmapStage, ...] = (
 STACK_COLUMNS: tuple[StackDomainColumn, ...] = (
     StackDomainColumn(
         title="Production & Full-Stack",
-        subtitle="Éprouvé sur des applications livrées",
+        subtitle="Applications livrées",
         accent=PALETTE.signal_active,
         rows=(
-            ("TypeScript", "JavaScript", "SQL"),
-            ("React", "Vite", "Tailwind CSS"),
+            ("TypeScript", "React", "Vite"),
             ("PostgreSQL (RLS)", "Supabase"),
-            ("Node / Express", "Git & GitHub"),
+            ("Node / Express", "Tailwind", "Git"),
         ),
     ),
     StackDomainColumn(
         title="Statistiques, Data & IA",
-        subtitle="Socle académique UFHB & Rennes 2",
+        subtitle="UFHB & Rennes 2",
         accent=PALETTE.signal_data,
         rows=(
             ("Python", "Pandas", "NumPy"),
-            ("Scikit-Learn", "Modélisation stat."),
-            ("Diagnostic & nettoyage EDA",),
-            ("pgvector", "Métriques de RAG"),
+            ("Scikit-Learn", "Statistique"),
+            ("pgvector", "Bootstrap & RAG"),
         ),
     ),
     StackDomainColumn(
-        title="Systèmes, Cyber & R&D",
-        subtitle="Montée en compétences active",
+        title="Systèmes, Réseaux & Labo",
+        subtitle="Chantiers v0.1 actifs",
         accent=PALETTE.signal_systems,
         rows=(
             ("Go", "Rust", "Linux"),
-            ("TCP/IP", "Wireshark", "Scapy"),
-            ("Docker", "Redis", "Reverse-Proxy"),
-            ("Godot Engine (2D/3D Mobile)",),
+            ("TCP/IP", "PCAP", "Wireshark"),
+            ("Docker", "Redis", "Godot"),
         ),
     ),
 )
