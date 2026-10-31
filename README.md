@@ -1,113 +1,144 @@
 <div align="center">
 
-# Hi, I'm Elmas 👋
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1220,50:0e244d,100:00CFFF&height=210&section=header&text=Elmas&fontSize=68&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=%E2%9A%A1%20Data%20Science%20%7C%20Full-Stack%20%7C%20Systems%20Engineering%20%E2%9A%A1&descAlignY=62&descColor=00CFFF&descSize=19" width="100%"/>
 
-### Data Scientist & Software Engineer | TypeScript · Python · Go · PostgreSQL RLS
-
-I design and build clean, type-safe, production-ready systems at the intersection of **statistical modeling** and **software engineering**.
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&pause=1000&color=00CFFF&center=true&vCenter=true&width=760&lines=From+Data+to+Systems+%E2%80%94+Production-Ready+Software;Full-Stack+Engineer+%7C+TypeScript+%E2%80%A2+React+%E2%80%A2+PostgreSQL+RLS;Data+Scientist+%7C+Statistics+%E2%80%A2+pgvector+%E2%80%A2+RAG;Systems+%26+Security+%7C+Go+%E2%80%A2+TCP%2FIP+%E2%80%A2+Reverse+Proxy)](https://github.com/elm-as)
 
 <br/>
 
 <a href="https://github.com/elm-as">
-  <img src="https://komarev.com/ghpvc/?username=elm-as&label=PROFILE%20VIEWS&style=for-the-badge&color=0e75b6" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=elm-as&label=PROFILE%20VIEWS&style=for-the-badge&color=00CFFF&labelColor=0D1117" alt="Profile Views" />
 </a>
 <a href="https://github.com/elm-as?tab=followers">
-  <img src="https://img.shields.io/github/followers/elm-as?style=for-the-badge&logo=github&logoColor=white&label=FOLLOWERS&color=181717" alt="Followers" />
-</a>
-<a href="https://www.linkedin.com/in/elmas-dev">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-</a>
-<a href="mailto:elmastresoroulobo@gmail.com">
-  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  <img src="https://img.shields.io/github/followers/elm-as?style=for-the-badge&logo=github&logoColor=white&label=FOLLOWERS&color=181717&labelColor=0D1117" alt="Followers" />
 </a>
 <a href="https://play.google.com/store/apps/details?id=com.daloamarket.app">
-  <img src="https://img.shields.io/badge/Daloa_Market-Google_Play-065f46?style=for-the-badge&logo=googleplay&logoColor=34d399" alt="Daloa Market" />
+  <img src="https://img.shields.io/badge/Daloa_Market-Google_Play-00CFFF?style=for-the-badge&logo=googleplay&logoColor=white&labelColor=0D1117" alt="Daloa Market sur Google Play" />
+</a>
+<a href="https://www.linkedin.com/in/elmas-dev">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117" alt="LinkedIn" />
+</a>
+<a href="mailto:elmastresoroulobo@gmail.com">
+  <img src="https://img.shields.io/badge/Email-Reach_Out-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" alt="Email" />
 </a>
 
 </div>
 
 ---
 
-## 🚀 About Me
+## 🧠 Who Am I
 
-I believe in **clean data first**, **database-level security (`PostgreSQL RLS`)**, and **frictionless modular code**.
+```python
+class Elmas:
+    def __init__(self):
+        self.name        = "Elmas"
+        self.role        = "Data Scientist & Software Engineer"
+        self.location    = "Abidjan, Côte d'Ivoire (Open to Remote)"
+        self.degrees     = [
+            "Licence en Statistiques — UFHB (Abidjan)",
+            "Master Data Science & IA — Université Rennes 2"
+        ]
+        self.live_app    = "Daloa Market (In Production on Google Play)"
+        self.core_stack  = ["TypeScript", "Python", "Go", "PostgreSQL (RLS)", "Docker"]
+        self.principles  = [
+            "Clean data before any modeling",
+            "Database-enforced security (PostgreSQL Row Level Security)",
+            "Modular, readable code built for long-term maintainability"
+        ]
 
-- 🎓 Academic background in **Statistics** (*UFHB*) & **Data Science & AI** (*Université Rennes 2*).
-- 📱 Author & maintainer of **[Daloa Market](https://play.google.com/store/apps/details?id=com.daloamarket.app)** — live in production on Google Play.
-- 🛡️ Building resilient backends and defensive systems with **Go**, **PostgreSQL RLS**, and network traffic analysis.
-- 📊 Designing automated data diagnostic engines (*[OpenStats](https://github.com/elm-as/openstat)*) and statistically evaluated RAG pipelines (*[StatRAG](https://github.com/elm-as/StatRAG)*).
-- 💬 Ask me about: **TypeScript**, **Python**, **Go**, **PostgreSQL (RLS)**, **Docker**, **TCP/IP**, or **Statistical Inference**.
-- 📍 Based in **Abidjan, Côte d'Ivoire** · Open to remote opportunities and high-impact engineering projects.
+    def __repr__(self):
+        return "From Data to Systems 🚀"
+```
 
 ---
 
-## 🛠️ Tech Stack
+## ⚡ Tech Stack & Tooling
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=ts,react,nodejs,express,postgres,supabase,py,go,docker,linux,git,github,tailwind,vite,redis" alt="Tech Stack Icons" />
+
+<img src="https://skillicons.dev/icons?i=ts,react,nextjs,nodejs,express,postgres,supabase,redis,py,go,docker,linux,git,github,tailwind,vite&perline=8" alt="Tech Stack Icons" />
+
+<br/><br/>
+
+| Domaine | Technologies clés | Focus architectural |
+|---|---|---|
+| **🌐 Production & Full-Stack** | `TypeScript` · `React` · `Next.js` · `Node.js` · `Express` · `Tailwind` · `Vite` | Architecture composants, typage strict, SSR/SPA, UI responsive |
+| **🛡️ Données & Sécurité** | `PostgreSQL` · `Row Level Security (RLS)` · `Supabase` · `pgvector` · `Redis` | Isolation multi-tenants en base, politiques de sécurité, cache temps réel |
+| **📊 Statistiques & IA** | `Python` · `Pandas` · `NumPy` · `Scikit-Learn` · `Bootstrap 95% CI` · `RAG` | Inférence, métriques d'évaluation de RAG, nettoyage automatisé |
+| **⚡ Systèmes, Réseaux & Infra** | `Go (Golang)` · `Linux` · `Docker` · `TCP/IP` · `PCAP & Wireshark` · `Git` | Sonde réseau passive, reverse-proxy HTTP défensif, Token Bucket |
+
 </div>
 
-<br/>
-
-| Domaine | Technologies |
-|---|---|
-| **Production & Full-Stack** | TypeScript, React, Node.js, Express, PostgreSQL (RLS), Supabase, Tailwind CSS, Vite |
-| **Statistiques, Data & IA** | Python, Pandas, NumPy, Scikit-Learn, pgvector, RAG & Bootstrap, Modélisation statistique |
-| **Systèmes, Réseaux & DevOps** | Go, Linux, Docker, Redis, TCP/IP, PCAP & Wireshark, Git, GitHub Actions |
-
 ---
 
-## 📌 Featured Projects
+## 🚀 Featured Projects
 
-### 📱 [Daloa Market](https://play.google.com/store/apps/details?id=com.daloamarket.app) — *Live on Google Play*
-> Marketplace locale en production connectant commerçants et acheteurs avec catalogue temps réel et commandes sécurisées.
+<div align="center">
 
-- **Stack :** `TypeScript` · `React` · `PostgreSQL (RLS)` · `Supabase`
-- **Architecture :** Isolation stricte multi-vendeurs par Row Level Security en base, synchronisation temps réel.
-- **Dépôts :** [Application Mobile](https://github.com/elm-as/DaloaMarket-App) · [Refonte v2](https://github.com/elm-as/DaloaMarket-v2) · [API Escrow](https://github.com/elm-as/api.daloamarket.ci) · [Status Monitor](https://github.com/elm-as/status.daloamarket.ci)
+<table>
+<tr>
+<td width="50%">
 
----
+<a href="https://play.google.com/store/apps/details?id=com.daloamarket.app">
+  <img src="https://github-readme-stats-eight-sable.vercel.app/api/pin/?username=elm-as&repo=DaloaMarket-App&theme=tokyonight&hide_border=false&border_color=8B949E&bg_color=161B22&title_color=00CFFF" width="100%" alt="Daloa Market"/>
+</a>
 
-### 🛵 [Daloa Delivery](https://github.com/elm-as/DaloaDelivery-App) & [Daloa Pay](https://github.com/elm-as/DaloaPay)
-> Suite logistique et financière : attribution des courses au dernier kilomètre et séquestre transactionnel automatisé.
+</td>
+<td width="50%">
 
-- **Stack :** `TypeScript` · `Express` · `Supabase` · `Webhooks`
-- **Fonctionnalités :** Gestion des livreurs, géolocalisation, séquestre à la livraison et documentation API [docs.daloamarket.ci](https://github.com/elm-as/docs.daloamarket.ci).
+<a href="https://github.com/elm-as/openstat">
+  <img src="https://github-readme-stats-eight-sable.vercel.app/api/pin/?username=elm-as&repo=openstat&theme=tokyonight&hide_border=false&border_color=8B949E&bg_color=161B22&title_color=00CFFF" width="100%" alt="OpenStats"/>
+</a>
 
----
+</td>
+</tr>
+<tr>
+<td width="50%">
 
-### 📊 [OpenStats](https://github.com/elm-as/openstat)
-> Plateforme no-code de diagnostic, nettoyage automatisé et exploitation de séries statistiques (+133k lignes).
+<a href="https://github.com/elm-as/NetSentinel">
+  <img src="https://github-readme-stats-eight-sable.vercel.app/api/pin/?username=elm-as&repo=NetSentinel&theme=tokyonight&hide_border=false&border_color=8B949E&bg_color=161B22&title_color=00CFFF" width="100%" alt="NetSentinel"/>
+</a>
 
-- **Stack :** `Python` · `TypeScript` · `Pandas` · `Scikit-Learn`
-- **Interface :** [Console Web interactive](https://github.com/elm-as/Stats) permettant l'importation de jeux de données, la détection d'anomalies et l'export d'analyses prêtes à l'emploi.
+</td>
+<td width="50%">
 
----
+<a href="https://github.com/elm-as/GateShield">
+  <img src="https://github-readme-stats-eight-sable.vercel.app/api/pin/?username=elm-as&repo=GateShield&theme=tokyonight&hide_border=false&border_color=8B949E&bg_color=161B22&title_color=00CFFF" width="100%" alt="GateShield"/>
+</a>
 
-### 🛡️ [NetSentinel](https://github.com/elm-as/NetSentinel)
-> Sonde passive d'analyse de trafic TCP/IP (.pcap) avec détection d'anomalies en temps réel par variance en ligne de Welford et Z-Score.
+</td>
+</tr>
+<tr>
+<td width="50%">
 
-- **Stack :** `Go 1.24` · `TCP/IP` · `Statistiques en ligne`
-- **Highlights :** Décodeur Ethernet/IPv4/TCP natif sans dépendance Cgo, baseline adaptative glissante et alertes sur déviation statistique.
+<a href="https://github.com/elm-as/StatRAG">
+  <img src="https://github-readme-stats-eight-sable.vercel.app/api/pin/?username=elm-as&repo=StatRAG&theme=tokyonight&hide_border=false&border_color=8B949E&bg_color=161B22&title_color=00CFFF" width="100%" alt="StatRAG"/>
+</a>
 
----
+</td>
+<td width="50%">
 
-### ⚡ [GateShield](https://github.com/elm-as/GateShield)
-> Reverse-proxy HTTP défensif haute performance avec rate-limiting Token Bucket par IP et télémétrie atomique.
+<a href="https://github.com/elm-as/DaloaDelivery-App">
+  <img src="https://github-readme-stats-eight-sable.vercel.app/api/pin/?username=elm-as&repo=DaloaDelivery-App&theme=tokyonight&hide_border=false&border_color=8B949E&bg_color=161B22&title_color=00CFFF" width="100%" alt="Daloa Delivery"/>
+</a>
 
-- **Stack :** `Go 1.24` · `HTTP Reverse Proxy` · `Défense réseau`
-- **Highlights :** Algorithme Token Bucket avec purge asynchrone, protection anti-Slowloris (timeouts stricts) et compteurs thread-safe.
+</td>
+</tr>
+</table>
 
----
+| Projet | Enjeux & Rôle | Stack |
+|---|---|---|
+| 📱 **[Daloa Market](https://play.google.com/store/apps/details?id=com.daloamarket.app)** | Marketplace locale **en production sur Google Play** — multi-vendeurs et isolation RLS | `TypeScript` · `React` · `PostgreSQL RLS` |
+| 🛵 **[Daloa Delivery & Pay](https://github.com/elm-as/DaloaDelivery-App)** | Attribution des courses logistiques et séquestre transactionnel automatisé | `TypeScript` · `Express` · `Supabase` · `Webhooks` |
+| 📊 **[OpenStats](https://github.com/elm-as/openstat)** | Diagnostic automatisé de jeux de données et modélisation sans code (*+133k lignes*) | `Python` · `TypeScript` · `Pandas` |
+| 🛡️ **[NetSentinel](https://github.com/elm-as/NetSentinel)** | Sonde passive TCP/IP (.pcap) avec détection Welford & Z-Score sans Cgo | `Go 1.24` · `TCP/IP` · `Variance glissante` |
+| ⚡ **[GateShield](https://github.com/elm-as/GateShield)** | Reverse-proxy défensif haute cadence avec rate-limiting Token Bucket par IP | `Go 1.24` · `HTTP Proxy` · `Anti-Slowloris` |
+| 📚 **[StatRAG](https://github.com/elm-as/StatRAG)** | Pipeline RAG sous `pgvector` + `RLS` évalué par intervalles bootstrap à 95% | `Python 3.11+` · `pgvector` · `Bootstrap CI` |
 
-### 📚 [StatRAG](https://github.com/elm-as/StatRAG)
-> Pipeline RAG sous pgvector + RLS évalué mathématiquement par métriques de fidélité et intervalles de confiance bootstrap à 95 %.
-
-- **Stack :** `Python 3.11+` · `PostgreSQL pgvector` · `Bootstrap 95% CI`
-- **Highlights :** Découpage textuel déterministe, isolation des embeddings par utilisateur via RLS et validation empirique non-paramétrique.
+</div>
 
 <details>
-<summary><b>📂 Voir tous les autres projets & prototypes (Data, Sécurité, Mobile)</b></summary>
+<summary><b>📂 Voir tous les autres prototypes & recherches (Data, Sécurité, Mobile)</b></summary>
 
 <br/>
 
@@ -161,13 +192,21 @@ I believe in **clean data first**, **database-level security (`PostgreSQL RLS`)*
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/elmas-dev)
+<a href="https://www.linkedin.com/in/elmas-dev">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117" alt="LinkedIn" />
+</a>
 &nbsp;&nbsp;
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:elmastresoroulobo@gmail.com)
+<a href="mailto:elmastresoroulobo@gmail.com">
+  <img src="https://img.shields.io/badge/Email-Reach_Out-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" alt="Email" />
+</a>
 &nbsp;&nbsp;
-[![Daloa Market](https://img.shields.io/badge/Daloa_Market-Google_Play-065f46?style=for-the-badge&logo=googleplay&logoColor=34d399)](https://play.google.com/store/apps/details?id=com.daloamarket.app)
+<a href="https://play.google.com/store/apps/details?id=com.daloamarket.app">
+  <img src="https://img.shields.io/badge/Daloa_Market-Google_Play-00CFFF?style=for-the-badge&logo=googleplay&logoColor=white&labelColor=0D1117" alt="Daloa Market" />
+</a>
 
-<br/>
+<br/><br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00CFFF,50:0e244d,100:0b1220&height=90&section=footer" width="100%"/>
 
 <sub><b>ElmasCore · From Data to Systems</b> — Ouvert aux opportunités en <b>Data Science</b>, <b>Full-Stack</b> et <b>Systèmes / Réseaux</b></sub>
 
