@@ -25,10 +25,10 @@
 class Elmas:
     def __init__(self):
         self.name        = "Elmas"
-        self.role        = "Data Scientist & Software Engineer"
+        self.role        = "Data Scientist Jr & Software Engineer"
         self.location    = "Abidjan, Côte d'Ivoire (Open to Remote)"
         self.degrees     = [
-            "Licence en Statistiques — UFHB (Abidjan)",
+            "Licence en Modélisation Statistiques — UJLoG (Daloa)",
             "Master Data Science & IA — Université Rennes 2"
         ]
         self.live_app    = "Daloa Market (In Production on Google Play)"
