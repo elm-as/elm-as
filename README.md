@@ -4,23 +4,16 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&pause=1000&color=00CFFF&center=true&vCenter=true&width=760&lines=From+Data+to+Systems+%E2%80%94+Production-Ready+Software;Full-Stack+Engineer+%7C+TypeScript+%E2%80%A2+React+%E2%80%A2+PostgreSQL+RLS;Data+Scientist+%7C+Statistics+%E2%80%A2+pgvector+%E2%80%A2+RAG;Systems+%26+Security+%7C+Go+%E2%80%A2+TCP%2FIP+%E2%80%A2+Reverse+Proxy)](https://github.com/elm-as)
 
-<br/>
+<p align="center">
+  <a href="https://github.com/elm-as"><img src="https://komarev.com/ghpvc/?username=elm-as&label=PROFILE%20VIEWS&style=for-the-badge&color=00CFFF&labelColor=0D1117" alt="Profile Views" /></a>&nbsp;
+  <a href="https://github.com/elm-as?tab=followers"><img src="https://img.shields.io/github/followers/elm-as?style=for-the-badge&logo=github&logoColor=white&label=FOLLOWERS&color=181717&labelColor=0D1117" alt="Followers" /></a>&nbsp;
+  <a href="https://play.google.com/store/apps/details?id=com.daloamarket.app"><img src="https://img.shields.io/badge/Daloa_Market-Google_Play-00CFFF?style=for-the-badge&logo=googleplay&logoColor=white&labelColor=0D1117" alt="Daloa Market sur Google Play" /></a>
+</p>
 
-<a href="https://github.com/elm-as">
-  <img src="https://komarev.com/ghpvc/?username=elm-as&label=PROFILE%20VIEWS&style=for-the-badge&color=00CFFF&labelColor=0D1117" alt="Profile Views" />
-</a>
-<a href="https://github.com/elm-as?tab=followers">
-  <img src="https://img.shields.io/github/followers/elm-as?style=for-the-badge&logo=github&logoColor=white&label=FOLLOWERS&color=181717&labelColor=0D1117" alt="Followers" />
-</a>
-<a href="https://play.google.com/store/apps/details?id=com.daloamarket.app">
-  <img src="https://img.shields.io/badge/Daloa_Market-Google_Play-00CFFF?style=for-the-badge&logo=googleplay&logoColor=white&labelColor=0D1117" alt="Daloa Market sur Google Play" />
-</a>
-<a href="https://www.linkedin.com/in/elmas-dev">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117" alt="LinkedIn" />
-</a>
-<a href="mailto:elmastresoroulobo@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Reach_Out-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" alt="Email" />
-</a>
+<p align="center">
+  <a href="https://www.linkedin.com/in/elmas-dev"><img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117" alt="LinkedIn" /></a>&nbsp;
+  <a href="mailto:elmastresoroulobo@gmail.com"><img src="https://img.shields.io/badge/Email-Reach_Out-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" alt="Email" /></a>
+</p>
 
 </div>
 
@@ -142,6 +135,7 @@ class Elmas:
 
 <br/>
 
+- **Art Génératif & Algorithmes :** [4myHeart](https://github.com/elm-as/4myHeart) *(23 simulations physiques poétiques au format 9:16 en C & Python : ondes de Lindblad, SPH, Chladni, fractales, feuilles au vent)*
 - **Modélisation & IA :** `ai-recruitment-score` *(scoring RH, 108 commits — proto public : [neural-recruit](https://github.com/elm-as/neural-recruit))* · `bot-de-trading-deriv` *(quant, +12 k lignes)* · `plateforme-master-da` · `comparateur-prix-ci`
 - **Systèmes, Sécurité & Mobile :** [kripton](https://github.com/elm-as/kripton) *(partage de secret de Shamir)* · [vanguard-sec](https://github.com/elm-as/vanguard-sec) *(biométrie comportementale)* · [med-connect](https://github.com/elm-as/med-connect) *(diagnostic offline-first)* · [datasci-os](https://github.com/elm-as/datasci-os) · [KlasNet](https://github.com/elm-as/KlasNet) · [pendu-royal](https://github.com/elm-as/pendu-royal) *(Android/Kivy)*
 
