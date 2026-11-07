@@ -57,7 +57,7 @@ class Elmas:
 |---|---|---|
 | **🌐 Production & Full-Stack** | `TypeScript` · `React` · `Next.js` · `Node.js` · `Express` · `Tailwind` · `Vite` | Architecture composants, typage strict, SSR/SPA, UI responsive |
 | **🛡️ Données & Sécurité** | `PostgreSQL` · `Row Level Security (RLS)` · `Supabase` · `pgvector` · `Redis` | Isolation multi-tenants en base, politiques de sécurité, cache temps réel |
-| **📊 Statistiques & IA** | `Python` · `Pandas` · `NumPy` · `Scikit-Learn` · `Bootstrap 95% CI` · `RAG` | Inférence, métriques d'évaluation de RAG, nettoyage automatisé |
+| **📊 Statistiques & IA** | `Python` · `PyTorch` · `MediaPipe` · `Pandas` · `NumPy` · `Scikit-Learn` · `Bootstrap 95% CI` · `RAG` | Vision & séquences temps réel (LSFB), Transformers spatio-temporels, RAG |
 | **⚡ Systèmes, Réseaux & Infra** | `Go (Golang)` · `Linux` · `Docker` · `TCP/IP` · `PCAP & Wireshark` · `Git` | Sonde réseau passive, reverse-proxy HTTP défensif, Token Bucket |
 
 </div>
@@ -117,12 +117,29 @@ class Elmas:
 
 </td>
 </tr>
+<tr>
+<td width="50%">
+
+<a href="https://github.com/elm-as/lsfb-live">
+  <img src="https://github-readme-stats-eight-sable.vercel.app/api/pin/?username=elm-as&repo=lsfb-live&theme=tokyonight&hide_border=false&border_color=8B949E&bg_color=161B22&title_color=00CFFF" width="100%" alt="LSFB Live"/>
+</a>
+
+</td>
+<td width="50%">
+
+<a href="https://github.com/elm-as/4myHeart">
+  <img src="https://github-readme-stats-eight-sable.vercel.app/api/pin/?username=elm-as&repo=4myHeart&theme=tokyonight&hide_border=false&border_color=8B949E&bg_color=161B22&title_color=00CFFF" width="100%" alt="4myHeart"/>
+</a>
+
+</td>
+</tr>
 </table>
 
 | Projet | Enjeux & Rôle | Stack |
 |---|---|---|
 | 📱 **[Daloa Market](https://play.google.com/store/apps/details?id=com.daloamarket.app)** | Marketplace locale **en production sur Google Play** — multi-vendeurs et isolation RLS | `TypeScript` · `React` · `PostgreSQL RLS` |
 | 🛵 **[Daloa Delivery & Pay](https://github.com/elm-as/DaloaDelivery-App)** | Attribution des courses logistiques et séquestre transactionnel automatisé | `TypeScript` · `Express` · `Supabase` · `Webhooks` |
+| 🤟 **[LSFB Live](https://github.com/elm-as/lsfb-live)** | Reconnaissance temps réel de la Langue des Signes (**81,1% Top-1 / 95,8% Top-5** sur 40 signeurs inconnus) & Avatar cinématique v3 | `Python 3.12` · `PyTorch` · `MediaPipe` · `BiStream-MSST` |
 | 📊 **[OpenStats](https://github.com/elm-as/openstat)** | Diagnostic automatisé de jeux de données et modélisation sans code (*+133k lignes*) | `Python` · `TypeScript` · `Pandas` |
 | 🛡️ **[NetSentinel](https://github.com/elm-as/NetSentinel)** | Sonde passive TCP/IP (.pcap) avec détection Welford & Z-Score sans Cgo | `Go 1.24` · `TCP/IP` · `Variance glissante` |
 | ⚡ **[GateShield](https://github.com/elm-as/GateShield)** | Reverse-proxy défensif haute cadence avec rate-limiting Token Bucket par IP | `Go 1.24` · `HTTP Proxy` · `Anti-Slowloris` |
@@ -136,7 +153,7 @@ class Elmas:
 <br/>
 
 - **Art Génératif & Algorithmes :** [4myHeart](https://github.com/elm-as/4myHeart) *(23 simulations physiques poétiques au format 9:16 en C & Python : ondes de Lindblad, SPH, Chladni, fractales, feuilles au vent)*
-- **Modélisation & IA :** `ai-recruitment-score` *(scoring RH, 108 commits — proto public : [neural-recruit](https://github.com/elm-as/neural-recruit))* · `bot-de-trading-deriv` *(quant, +12 k lignes)* · `plateforme-master-da` · `comparateur-prix-ci`
+- **Modélisation & IA :** [lsfb-live](https://github.com/elm-as/lsfb-live) *(traduction LSFB temps réel sur CPU, BiStream-MSST 416 dims à 81,1% Top-1 / 95,8% Top-5, accumulateur de phrases v2 & séquenceur Text-to-Sign v3)* · `ai-recruitment-score` *(scoring RH, 108 commits — proto public : [neural-recruit](https://github.com/elm-as/neural-recruit))* · `bot-de-trading-deriv` *(quant, +12 k lignes)* · `plateforme-master-da` · `comparateur-prix-ci`
 - **Systèmes, Sécurité & Mobile :** [kripton](https://github.com/elm-as/kripton) *(partage de secret de Shamir)* · [vanguard-sec](https://github.com/elm-as/vanguard-sec) *(biométrie comportementale)* · [med-connect](https://github.com/elm-as/med-connect) *(diagnostic offline-first)* · [datasci-os](https://github.com/elm-as/datasci-os) · [KlasNet](https://github.com/elm-as/KlasNet) · [pendu-royal](https://github.com/elm-as/pendu-royal) *(Android/Kivy)*
 
 </details>
