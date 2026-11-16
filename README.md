@@ -79,8 +79,8 @@ class Elmas:
 </td>
 <td width="50%">
 
-<a href="https://github.com/elm-as/openstat">
-  <img src="https://github-readme-stats-eight-sable.vercel.app/api/pin/?username=elm-as&repo=openstat&theme=tokyonight&hide_border=false&border_color=8B949E&bg_color=161B22&title_color=00CFFF" width="100%" alt="OpenStats"/>
+<a href="https://github.com/elm-as/Openstats">
+  <img src="https://github-readme-stats-eight-sable.vercel.app/api/pin/?username=elm-as&repo=Openstats&theme=tokyonight&hide_border=false&border_color=8B949E&bg_color=161B22&title_color=00CFFF" width="100%" alt="OpenStats"/>
 </a>
 
 </td>
@@ -140,7 +140,7 @@ class Elmas:
 | 📱 **[Daloa Market](https://play.google.com/store/apps/details?id=com.daloamarket.app)** | Marketplace locale **en production sur Google Play** — multi-vendeurs et isolation RLS | `TypeScript` · `React` · `PostgreSQL RLS` |
 | 🛵 **[Daloa Delivery & Pay](https://github.com/elm-as/DaloaDelivery-App)** | Attribution des courses logistiques et séquestre transactionnel automatisé | `TypeScript` · `Express` · `Supabase` · `Webhooks` |
 | 🤟 **[LSFB Live](https://github.com/elm-as/lsfb-live)** | Reconnaissance temps réel de la Langue des Signes (**81,1% Top-1 / 95,8% Top-5** sur 40 signeurs inconnus) & Avatar cinématique v3 | `Python 3.12` · `PyTorch` · `MediaPipe` · `BiStream-MSST` |
-| 📊 **[OpenStats](https://github.com/elm-as/openstat)** | Diagnostic automatisé de jeux de données et modélisation sans code (*+133k lignes*) | `Python` · `TypeScript` · `Pandas` |
+| 📊 **[OpenStats](https://github.com/elm-as/Openstats)** | Diagnostic automatisé de jeux de données et modélisation sans code (*+133k lignes*) | `Python` · `TypeScript` · `Pandas` |
 | 🛡️ **[NetSentinel](https://github.com/elm-as/NetSentinel)** | Sonde passive TCP/IP (.pcap) avec détection Welford & Z-Score sans Cgo | `Go 1.24` · `TCP/IP` · `Variance glissante` |
 | ⚡ **[GateShield](https://github.com/elm-as/GateShield)** | Reverse-proxy défensif haute cadence avec rate-limiting Token Bucket par IP | `Go 1.24` · `HTTP Proxy` · `Anti-Slowloris` |
 | 📚 **[StatRAG](https://github.com/elm-as/StatRAG)** | Pipeline RAG sous `pgvector` + `RLS` évalué par intervalles bootstrap à 95% | `Python 3.11+` · `pgvector` · `Bootstrap CI` |
