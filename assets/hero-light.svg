@@ -1,0 +1,73 @@
+<svg width="1200" height="260" viewBox="0 0 1200 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Elmas Tresor Oulobo — From Data to Systems">
+  <defs>
+    <linearGradient id="bgLight" x1="0" y1="0" x2="1200" y2="260" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F6F5F0"/>
+      <stop offset="60%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F1F0EA"/>
+    </linearGradient>
+    <linearGradient id="pulseLight1" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0F1419" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#0F5132" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#0F1419" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="pulseLight2" x1="1200" y1="0" x2="0" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#0F1419" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#0F5132" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="dotGridLight" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#0F1419" fill-opacity="0.09"/>
+    </pattern>
+    <style>
+      .flow-1 { stroke-dasharray: 160 1200; animation: dashMove 7s linear infinite; }
+      .flow-2 { stroke-dasharray: 130 1200; animation: dashMoveRev 9s linear infinite; }
+      .orbit-spin { transform-origin: 995px 130px; animation: slowSpin 26s linear infinite; }
+      .orbit-spin-rev { transform-origin: 995px 130px; animation: slowSpinRev 18s linear infinite; }
+      .dot-pulse { animation: pulseDot 2.4s ease-in-out infinite; }
+      @keyframes dashMove { from { stroke-dashoffset: 1360; } to { stroke-dashoffset: 0; } }
+      @keyframes dashMoveRev { from { stroke-dashoffset: 0; } to { stroke-dashoffset: 1330; } }
+      @keyframes slowSpin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+      @keyframes slowSpinRev { from { transform: rotate(360deg); } to { transform: rotate(0deg); } }
+      @keyframes pulseDot { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="260" rx="14" fill="url(#bgLight)"/>
+  <rect width="1200" height="260" rx="14" fill="url(#dotGridLight)"/>
+  <rect x="0.75" y="0.75" width="1198.5" height="258.5" rx="13.25" stroke="#0F1419" stroke-opacity="0.14" stroke-width="1.5"/>
+
+  <path d="M 0 198 C 240 152, 460 232, 740 176 C 920 140, 1060 178, 1200 132" stroke="#0F1419" stroke-opacity="0.10" stroke-width="1.5" fill="none"/>
+  <path d="M 0 198 C 240 152, 460 232, 740 176 C 920 140, 1060 178, 1200 132" stroke="url(#pulseLight1)" stroke-width="2.2" fill="none" class="flow-1"/>
+  <path d="M 0 222 C 300 250, 560 178, 860 214 C 1010 232, 1110 202, 1200 184" stroke="#0F5132" stroke-opacity="0.12" stroke-width="1.2" fill="none"/>
+  <path d="M 0 222 C 300 250, 560 178, 860 214 C 1010 232, 1110 202, 1200 184" stroke="url(#pulseLight2)" stroke-width="1.8" fill="none" class="flow-2"/>
+
+  <g>
+    <g class="orbit-spin">
+      <ellipse cx="995" cy="130" rx="92" ry="42" stroke="#0F1419" stroke-opacity="0.28" stroke-width="1.2" transform="rotate(-24 995 130)"/>
+      <circle cx="1079" cy="92" r="3.5" fill="#0F1419"/>
+    </g>
+    <g class="orbit-spin-rev">
+      <ellipse cx="995" cy="130" rx="74" ry="74" stroke="#0F5132" stroke-opacity="0.30" stroke-width="1" stroke-dasharray="6 8"/>
+      <circle cx="995" cy="56" r="3.2" fill="#0F5132"/>
+    </g>
+    <circle cx="995" cy="130" r="34" fill="#0F1419"/>
+    <text x="995" y="138" text-anchor="middle" fill="#F6F5F0" font-family="'IBM Plex Mono', 'JetBrains Mono', monospace" font-size="22" font-weight="600" letter-spacing="1">EC</text>
+  </g>
+
+  <circle cx="58" cy="54" r="4.5" fill="#0F5132" class="dot-pulse"/>
+  <text x="72" y="58" fill="#525866" font-family="'IBM Plex Mono', 'JetBrains Mono', monospace" font-size="12" letter-spacing="1.6">ELMASCORE STUDIO  ·  ABIDJAN / DALOA  ·  OPEN TO REMOTE</text>
+
+  <text x="54" y="124" fill="#0F1419" font-family="Georgia, 'Times New Roman', serif" font-size="52" font-weight="400" letter-spacing="-0.8">Elmas Tresor Oulobo</text>
+  <text x="56" y="160" fill="#0F5132" font-family="'Plus Jakarta Sans', 'Segoe UI', system-ui, sans-serif" font-size="18" font-weight="600">From Data to Systems  —  Data Science · Systèmes Bas Niveau · Produits Souverains</text>
+
+  <g font-family="'IBM Plex Mono', 'JetBrains Mono', monospace" font-size="11.5">
+    <rect x="56" y="190" width="166" height="30" rx="6" fill="#FFFFFF" stroke="#0F1419" stroke-opacity="0.18"/>
+    <text x="139" y="209" text-anchor="middle" fill="#0F1419">11 DÉPÔTS DATA ML</text>
+
+    <rect x="234" y="190" width="176" height="30" rx="6" fill="#FFFFFF" stroke="#0F5132" stroke-opacity="0.32"/>
+    <text x="322" y="209" text-anchor="middle" fill="#0F5132">RUST · C++17 · GO</text>
+
+    <rect x="422" y="190" width="214" height="30" rx="6" fill="#FFFFFF" stroke="#0F1419" stroke-opacity="0.18"/>
+    <text x="529" y="209" text-anchor="middle" fill="#0F1419">KOVA · OPENSTATS · DALOA</text>
+  </g>
+</svg>

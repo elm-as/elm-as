@@ -1,0 +1,17 @@
+<svg width="1200" height="84" viewBox="0 0 1200 84" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ElmasCore Footer">
+  <defs>
+    <linearGradient id="footLineLight" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0F1419" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#0F5132" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#0F1419" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      .sweep { stroke-dasharray: 220 1200; animation: sweepMove 6s linear infinite; }
+      @keyframes sweepMove { from { stroke-dashoffset: 1420; } to { stroke-dashoffset: 0; } }
+    </style>
+  </defs>
+  <rect width="1200" height="84" rx="12" fill="#F6F5F0" stroke="#0F1419" stroke-opacity="0.14" stroke-width="1"/>
+  <line x1="24" y1="22" x2="1176" y2="22" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="24" y1="22" x2="1176" y2="22" stroke="url(#footLineLight)" stroke-width="2" class="sweep"/>
+  <text x="600" y="54" text-anchor="middle" fill="#0F1419" font-family="'IBM Plex Mono', monospace" font-size="12.5" letter-spacing="1.8">ELMASCORE · FROM DATA TO SYSTEMS — ELMAS TRESOR OULOBO</text>
+</svg>

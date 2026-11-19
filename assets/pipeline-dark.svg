@@ -1,0 +1,42 @@
+<svg width="1200" height="156" viewBox="0 0 1200 156" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Architecture From Data to Systems">
+  <defs>
+    <style>
+      .packet-a { stroke-dasharray: 26 240; animation: travel 2.8s linear infinite; }
+      .packet-b { stroke-dasharray: 26 240; animation: travel 2.8s linear 1.1s infinite; }
+      @keyframes travel { from { stroke-dashoffset: 266; } to { stroke-dashoffset: 0; } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="156" rx="12" fill="#0D1117" stroke="#30363D" stroke-width="1"/>
+
+  <!-- Node 01 -->
+  <rect x="28" y="24" width="336" height="108" rx="8" fill="#161B22" stroke="#38BDF8" stroke-opacity="0.35"/>
+  <text x="48" y="50" fill="#38BDF8" font-family="'IBM Plex Mono', monospace" font-size="11" letter-spacing="1.4">01 · DATA SCIENCE &amp; ML</text>
+  <text x="48" y="78" fill="#F8FAFC" font-family="Georgia, serif" font-size="22">11 Dépôts Souverains</text>
+  <text x="48" y="102" fill="#94A3B8" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12.5">Validation sans fuite · Calibration · SHAP</text>
+  <text x="48" y="120" fill="#64748B" font-family="'IBM Plex Mono', monospace" font-size="10.5">PyTorch · LightGBM · DuckDB · SciPy</text>
+
+  <!-- Connector 1 -> 2 -->
+  <line x1="364" y1="78" x2="432" y2="78" stroke="#30363D" stroke-width="2"/>
+  <line x1="364" y1="78" x2="432" y2="78" stroke="#38BDF8" stroke-width="2.5" class="packet-a"/>
+  <polygon points="428,73 436,78 428,83" fill="#38BDF8"/>
+
+  <!-- Node 02 -->
+  <rect x="432" y="24" width="336" height="108" rx="8" fill="#161B22" stroke="#10B981" stroke-opacity="0.35"/>
+  <text x="452" y="50" fill="#34D399" font-family="'IBM Plex Mono', monospace" font-size="11" letter-spacing="1.4">02 · SYSTÈMES &amp; MOTEURS</text>
+  <text x="452" y="78" fill="#F8FAFC" font-family="Georgia, serif" font-size="22">Natif, Réseau &amp; Sécurité</text>
+  <text x="452" y="102" fill="#94A3B8" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12.5">Moteurs 3D/2D · Sonde PCAP · Proxy</text>
+  <text x="452" y="120" fill="#64748B" font-family="'IBM Plex Mono', monospace" font-size="10.5">Rust · C++17 OpenGL · Go 1.24 · RLS</text>
+
+  <!-- Connector 2 -> 3 -->
+  <line x1="768" y1="78" x2="836" y2="78" stroke="#30363D" stroke-width="2"/>
+  <line x1="768" y1="78" x2="836" y2="78" stroke="#34D399" stroke-width="2.5" class="packet-b"/>
+  <polygon points="832,73 840,78 832,83" fill="#34D399"/>
+
+  <!-- Node 03 -->
+  <rect x="836" y="24" width="336" height="108" rx="8" fill="#161B22" stroke="#E2E8F0" stroke-opacity="0.25"/>
+  <text x="856" y="50" fill="#E2E8F0" font-family="'IBM Plex Mono', monospace" font-size="11" letter-spacing="1.4">03 · PRODUITS EN PRODUCTION</text>
+  <text x="856" y="78" fill="#F8FAFC" font-family="Georgia, serif" font-size="22">Apps Web, Mobile &amp; SaaS</text>
+  <text x="856" y="102" fill="#94A3B8" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12.5">Kova · DaloaMarket · OpenStats · Nerds</text>
+  <text x="856" y="120" fill="#64748B" font-family="'IBM Plex Mono', monospace" font-size="10.5">TypeScript · React · Flutter · Supabase</text>
+</svg>
