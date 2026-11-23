@@ -9,7 +9,7 @@
 <br/><br/>
 
 <a href="https://elmas.solutions">
-  <img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&weight=600&size=18&duration=3200&pause=1100&color=38BDF8&center=true&vCenter=true&width=820&lines=From+Data+to+Systems+-+Rigueur+architecturale+%26+logiciels+souverains;15+syst%C3%A8mes+Data+Science+valid%C3%A9s+sans+fuite+(PyTorch+%E2%80%A2+LightGBM+%E2%80%A2+DuckDB);Kova+%E2%80%A2+OpenStats+%E2%80%A2+Daloa+Market+(Google+Play)+%E2%80%A2+LSFB+Live;Moteurs+natifs+%26+S%C3%A9curit%C3%A9+%7C+Rust+%E2%80%A2+C%2B%2B17+OpenGL+%E2%80%A2+Go+1.24" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&weight=600&size=18&duration=3200&pause=1100&color=38BDF8&center=true&vCenter=true&width=820&lines=From+Data+to+Systems+-+Rigueur+architecturale+%26+logiciels+souverains;16+syst%C3%A8mes+Data+Science+valid%C3%A9s+sans+fuite+(PyTorch+%E2%80%A2+LightGBM+%E2%80%A2+DuckDB);Kova+%E2%80%A2+OpenStats+%E2%80%A2+Daloa+Market+(Google+Play)+%E2%80%A2+LSFB+Live;Moteurs+natifs+%26+S%C3%A9curit%C3%A9+%7C+Rust+%E2%80%A2+C%2B%2B17+OpenGL+%E2%80%A2+Go+1.24" alt="Typing SVG" />
 </a>
 
 <p align="center">
@@ -51,7 +51,7 @@ class ElmasTresorOulobo:
         "Licence en Modélisation Statistique - UJLoG (Daloa)",
         "Master Data Science & IA - Université Rennes 2",
     )
-    flagships: tuple  = ("DataScience Hub (15 dépôts)", "Kova", "OpenStats", "Daloa Market", "LSFB Live", "Kiln")
+    flagships: tuple  = ("DataScience Hub (16 dépôts)", "Kova", "OpenStats", "Daloa Market", "LSFB Live", "Kiln")
     core_stack: tuple = ("Python", "TypeScript", "Rust", "C++17", "Go", "Flutter", "PostgreSQL RLS", "DuckDB")
     email: str        = "elmastresoroulobo@gmail.com"
     charter: tuple    = (
@@ -122,7 +122,7 @@ class ElmasTresorOulobo:
 
 | Système | Ce qu'il accomplit | Stack clé |
 |---|---|---|
-| **[DataScience Hub](https://github.com/elm-as/DataScience)** | **15 dépôts souverains** (fraude bancaire, profit crédit, churn ROI, survie NASA, clinique CDC, imagerie ResNet-18, inférence causale) | `Python` · `PyTorch` · `LightGBM` · `SHAP` |
+| **[DataScience Hub](https://github.com/elm-as/DataScience)** | **16 dépôts souverains** (fraude bancaire, profit crédit, churn ROI, survie NASA, clinique CDC, imagerie ResNet-18, inférence causale, YouTube growth) | `Python` · `PyTorch` · `LightGBM` · `SHAP` |
 | **[Kova](https://github.com/elm-as/Kova)** | Plateforme double-face : **ATS IA B2B** + **Radar d'offres temps réel** (Emploi.ci, Educarriere, Remotive, Jobicy) & **Coach candidature Groq** | `React 19` · `TypeScript` · `Supabase RLS` · `Groq` |
 | **[OpenStats](https://github.com/elm-as/OpenStats)** | Studio d'analyse statistique et économétrique **100 % local** avec exécutable natif Windows (`v1.0.0-rc.2`) | `Python` · `DuckDB` · `SciPy` · `PyInstaller` |
 | **[Daloa Market & Delivery](https://play.google.com/store/apps/details?id=com.daloamarket.app)** | Marketplace mobile **en production sur Google Play**, logistique courses et séquestre transactionnel multi-tenant | `TypeScript` · `React` · `PostgreSQL RLS` · `Express` |
@@ -147,6 +147,7 @@ class ElmasTresorOulobo:
 | **[HREOP](https://github.com/elm-as/HREOP)** | Réadmission hôpital 30j · 99 343 séjours (130 hôpitaux US) | **`+$4,42M`** d'économie HRRP (Top 15 %, GroupKFold patient) |
 | **[NIDSZ](https://github.com/elm-as/NIDSZ)** | Détection d'intrusions réseau · 257 673 flux (UNSW-NB15) | **`80,77 %` Recall @ 0,1 % FPR** · **`143k` flux/s** · audit zero-day |
 | **[AGCRS](https://github.com/elm-as/AGCRS)** | Rendements agricoles & climat · 101 pays (FAO / Banque Mondiale) | **`0.9658 R²`** hors-temps · intervalles conformes `89,8 %` |
+| **[FZYGA](https://github.com/elm-as/FZYGA)** | Croissance créateur YouTube · 3 480 vidéos (Fuze III, Fiouze, Fuzay²) | **`0.486 R²` · `0.785 Hit AUC`** · feuille de route Cap 5M |
 
 <details>
 <summary><b>Voir l'écosystème complet (Rust, Sécurité, Art Génératif, EdTech)</b></summary>
