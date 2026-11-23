@@ -56,7 +56,7 @@ class ElmasTresorOulobo:
     email: str        = "elmastresoroulobo@gmail.com"
     charter: tuple    = (
         "Données propres et validation sans fuite avant toute modélisation",
-        "Architecture par domaine métier, fonctions pures et fichiers <= 350 lignes",
+        "Architecture par domaine métier, fonctions pures,
         "Sécurité appliquée en base (PostgreSQL RLS) et zéro secret exposé côté client",
     )
 ```
