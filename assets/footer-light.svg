@@ -13,5 +13,5 @@
   <rect width="1200" height="84" rx="12" fill="#F6F5F0" stroke="#0F1419" stroke-opacity="0.14" stroke-width="1"/>
   <line x1="24" y1="22" x2="1176" y2="22" stroke="#CBD5E1" stroke-width="1"/>
   <line x1="24" y1="22" x2="1176" y2="22" stroke="url(#footLineLight)" stroke-width="2" class="sweep"/>
-  <text x="600" y="54" text-anchor="middle" fill="#0F1419" font-family="'IBM Plex Mono', monospace" font-size="12.5" letter-spacing="1.8">ELMASCORE · FROM DATA TO SYSTEMS — ELMAS TRESOR OULOBO</text>
+  <text x="600" y="54" text-anchor="middle" fill="#0F1419" font-family="'IBM Plex Mono', monospace" font-size="12.5" letter-spacing="1.8">ELMASCORE · FROM DATA TO SYSTEMS - ELMAS TRESOR OULOBO</text>
 </svg>
